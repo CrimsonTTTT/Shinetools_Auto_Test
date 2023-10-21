@@ -1,0 +1,3 @@
+# Shinetools_Auto_Test
+Shinetools基于Excel实现的UI自动化，完全基于app本身判断对错
+
