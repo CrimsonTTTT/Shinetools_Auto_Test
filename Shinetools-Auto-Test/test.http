@@ -1,0 +1,8 @@
+POST http://183.62.216.35:8081/ShineOSS/api/v3/userCenter?op=getOssFileUploadListByServer HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 0
+Host: 183.62.216.35:8081
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: assToken=d975be8daceed2ee8752e1963bb1a32c; JSESSIONID=f6adabf9-b277-42ea-9386-9f05716fb294
+User-Agent: okhttp/4.6.0
