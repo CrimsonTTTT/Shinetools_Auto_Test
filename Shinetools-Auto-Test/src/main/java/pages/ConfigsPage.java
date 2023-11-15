@@ -94,7 +94,7 @@ public class ConfigsPage extends BasePage{
 
 
     /**
-     * 单选类型设置项测试；各设置类型设置一遍，并读取对应的寄存器数值
+     * 单选类型设置项测试；各设置类型设置一遍，并读取对应的寄存器数值; 最后把结果保存到excel
      * */
     public void testSelectConfig( ExcelBo excelRow ) throws InterruptedException {
         compareSelectOption(excelRow);
@@ -130,23 +130,36 @@ public class ConfigsPage extends BasePage{
 //        System.out.println("页面实际选项值(WebElementList)" + actualSelectList);
         System.out.println("页面实际选项值" + actualSelectStrList);
         System.out.println("页面预期选项值" + expectSelectList);
-
+        int resultFlag = 1;
         // 判断实际页面的选项值是否与预期一致，若一致，进入单选项测试逻辑：逐项设置并返回到高级设置里读取对应的寄存器
         AdvancedSettingPage advancedSettingPage = new AdvancedSettingPage(appiumDriver);
         if( expectSelectList.equals(actualSelectStrList) ){
             System.out.println("进入单选项测试逻辑^_^");
             DeviceHomePage deviceHomePage = new DeviceHomePage(appiumDriver);
-
+            int itemIndex = 0 ; // 按顺序比对下标，默认从0开始
             for (WebElement item: actualSelectList) {
+                String selectedItemName = item.getText();
                 item.click();
                 toDeviceHomePage(row.getPath()).intoConfig("高级设置");
-
-                String result = advancedSettingPage.readRegisterValue(row.getRegisterType(),row.getRegister(),row.getRegisterLength());
+                // 读取对应寄存器值
+                Map result = advancedSettingPage.readRegisterValue(row.getRegisterType(),row.getRegister(),row.getRegisterLength());
+                System.out.println("读取寄存器数值为：" + result.toString());
                 advancedSettingPage.back(By.id("乱七八糟的."));
+                // 对比itemIndex与result的值，若不一致，直接返回首页
+                int actualRegisterValue = (Integer) result.get(row.getRegister());
+                if (itemIndex != actualRegisterValue){
+                    resultFlag = 0;
+                    break;
+                }
+                itemIndex++;
+                // 上次写到这里。。。。。。。。。。。。
                 deviceHomePage.intoConfig(row.getPath().get(0));
                 toConfigPage(row.getPath());
-
             }
+            // 跑完所有设置项进入，代表ok
+            row.setResult("ok,很完美！");
+            back(title_area);
+            return row;
         }
 
         row.setResult("预期选项值与实际选项不一致");
@@ -173,4 +186,5 @@ public class ConfigsPage extends BasePage{
             }
         }
     }
+
 }

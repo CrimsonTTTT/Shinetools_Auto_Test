@@ -18,7 +18,7 @@ public class DebugCase extends BaseCase{
 
     ExcelUtlis excelUtlis = new ExcelUtlis();
 
-    @Test
+    @Test(groups = "debug")
     public void test() throws IOException, InterruptedException {
 
         String excelPath = "D:\\TestCode\\Auto_SPH10000TL-HU.xlsx";
@@ -32,6 +32,8 @@ public class DebugCase extends BaseCase{
 //        no_devices_debug();
 
         shineTools_first_test();
+
+//        loginAsCustomerTest();
 
         // 遍历设置项
         for ( ExcelBo item: excelRow ){
@@ -54,7 +56,17 @@ public class DebugCase extends BaseCase{
 //        deviceHomePage.intoConfig("快速设置");
     }
 
-    @Test
+    @Test(description = "sph10k终端账号登录")
+    public void loginAsCustomerTest(){
+        loginPage.loginAsCustomer()
+                .chooseTool(2)
+                .chooseProductionType(2)
+                .chooseInputSNType(1)
+                .writeCode("QZM10SKLW1")
+                .confirm();
+    }
+
+    @Test(description = "usb_wifi连接设备进入设备首页")
     public void no_devices_debug(  ){
         // usb_wifi链接进入设备页面
         loginPage.loginAsCustomer()
@@ -68,6 +80,7 @@ public class DebugCase extends BaseCase{
     /**
      *  测试基本步骤：
      *      1.前往设置项页面 2.测试方法 3. 返回设备首页
+     *      注意：每次进入设置之前从设备首页开始，设置完成之后返回到设置首页
      * */
     public void testConfigItem( ExcelBo excelRow ) throws IOException, InterruptedException {
         if ( excelRow.getType().equals("dir") ){

@@ -4,10 +4,15 @@ import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 import pages.BasePage;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * @Author Graycat.
  * @CreateTime 2023/9/28 11:24
- * @Descripe
+ * @Descripe    高级设置页面
  */
 public class AdvancedSettingPage extends BasePage {
 
@@ -30,17 +35,34 @@ public class AdvancedSettingPage extends BasePage {
      * @return void
      * @author Graycat. 2023/9/28 11:32
      */
-    public String readRegisterValue( int type, int address, int lengthOrData ){
+    public Map readRegisterValue( int type, int address, int lengthOrData ){
         writeText(commandType_input, String.valueOf(type));
         writeText(address_input, String.valueOf(address));
         writeText(lengthData_input, String.valueOf(lengthOrData));
         click(confirm_btn);
         String result = readText(result_area);
-        return result;
+        return analysisResultStrToMap(result);
     }
 
     public void backToDeviceHome(  ){
         back(top_title);
+    }
+
+
+    public Map analysisResultStrToMap( String str ){
+
+        Pattern pattern = Pattern.compile("(\\d+)--(\\d+)");
+        Matcher matcher = pattern.matcher(str);
+
+        Map<Integer, Integer> numberMap = new HashMap<>();
+        while (matcher.find()) {
+            int key = Integer.parseInt(matcher.group(1));
+            int value = Integer.parseInt(matcher.group(2));
+            numberMap.put(key, value);
+        }
+
+        System.out.println("转换后的Map: " + numberMap);
+        return numberMap;
     }
 
 }

@@ -30,7 +30,7 @@ public class BaseCase {
         return appiumDriver;
     }
 
-    @BeforeClass
+    @BeforeClass(groups = "base")
     public void classLevelSetup() throws MalformedURLException {
         System.out.println("执行beforeclass");
         //打包DesiredCapabilities这个类
@@ -51,7 +51,7 @@ public class BaseCase {
         appiumDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
-    @BeforeMethod   // 每个methed方法之前运行一次
+    @BeforeMethod(groups = "base")   // 每个methed方法之前运行一次
     public void methodLevelSetup() {
         System.out.println("执行before method");
         loginPage = new LoginPage(appiumDriver);
@@ -59,22 +59,22 @@ public class BaseCase {
         configsPage = new ConfigsPage(appiumDriver);
     }
 
-    @BeforeGroups(groups = "login")
+    @BeforeGroups(groups = {"login","base"})
     public void init_login_group() throws MalformedURLException {
         System.out.println("init login group.");
         classLevelSetup();
     }
 
-    @BeforeMethod(groups = "login")
+    @BeforeMethod(groups = {"base","login"})
     public void init_login_situation() throws InterruptedException {
         System.out.println("login分组里的before method开始执行");
     }
 
-    @AfterClass
+    @AfterClass(groups = {"base"})
     public void teardown() {
         System.out.println("执行after class");
         // 关闭服务
-//        appiumDriver.quit();
+        appiumDriver.quit();
     }
 
 
