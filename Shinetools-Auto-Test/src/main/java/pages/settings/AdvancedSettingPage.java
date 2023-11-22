@@ -22,6 +22,7 @@ public class AdvancedSettingPage extends BasePage {
     By confirm_btn = By.id("com.growatt.shinetools:id/btnStart");
 
     By result_area = By.id("com.growatt.shinetools:id/rvReceiver");
+    By result_data_list = By.xpath("//androidx.recyclerview.widget.RecyclerView[2]//android.widget.TextView");
     By top_title = By.id("com.growatt.shinetools:id/toolbar");
     public AdvancedSettingPage(AppiumDriver driver) {
         super(driver);
@@ -40,7 +41,7 @@ public class AdvancedSettingPage extends BasePage {
         writeText(address_input, String.valueOf(address));
         writeText(lengthData_input, String.valueOf(lengthOrData));
         click(confirm_btn);
-        String result = readText(result_area);
+        String result = readText(result_data_list);     // 只返回一个寄存器长度的数据，实际页面可能存在多个结果
         return analysisResultStrToMap(result);
     }
 
@@ -61,7 +62,9 @@ public class AdvancedSettingPage extends BasePage {
             numberMap.put(key, value);
         }
 
-        System.out.println("转换后的Map: " + numberMap);
+        System.out.println("读取寄存器的结果str: " + str);
+//        System.out.println("转换后的Map: " + numberMap);
+
         return numberMap;
     }
 

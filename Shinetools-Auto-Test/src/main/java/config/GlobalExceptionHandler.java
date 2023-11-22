@@ -24,6 +24,7 @@ public class GlobalExceptionHandler implements IInvokedMethodListener {
             System.out.println("Test method " + method.getTestMethod().getMethodName() + " failed with exception: " + testResult.getThrowable().getMessage());
             // 这里可以加入你的异常处理逻辑，例如记录日志、截图等
             System.out.println("成功捕捉到一个异常！！");
+
         }
     }
 }

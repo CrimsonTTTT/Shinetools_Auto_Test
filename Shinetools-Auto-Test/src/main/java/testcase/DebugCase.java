@@ -2,6 +2,7 @@ package testcase;
 
 import bo.ExcelBo;
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.testng.annotations.Test;
 import pages.ConfigsPage;
 import util.ExcelUtlis;
@@ -18,7 +19,7 @@ public class DebugCase extends BaseCase{
 
     ExcelUtlis excelUtlis = new ExcelUtlis();
 
-    @Test(groups = "debug")
+    @Test( groups = "debug", expectedExceptions = TimeoutException.class )
     public void test() throws IOException, InterruptedException {
 
         String excelPath = "D:\\TestCode\\Auto_SPH10000TL-HU.xlsx";

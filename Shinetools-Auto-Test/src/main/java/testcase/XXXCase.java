@@ -35,6 +35,6 @@ public class XXXCase {
 
     @Test
     public void getRegisterResult( ) throws IOException {
-
+        System.out.println("dddd");
     }
 }

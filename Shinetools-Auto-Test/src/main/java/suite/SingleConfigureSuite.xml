@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ShineTools_SingleConfigureTestDebug">
+    <listeners>
+        <listener class-name="config.GlobalExceptionHandler"></listener>
+    </listeners>
+
+    <test name="ExecutingListeners">
+
+        <classes>
+            <class name="testcase.SingleConfigCase"></class>
+        </classes>
+    </test>
+
+    <suite-files>
+        <!--    suitefile 可以指定多个suite运行    -->
+        <!--        <suite-file path="xx.xml"></suite-file>-->
+        <!--        <suite-file path="xx.xml"></suite-file>-->
+
+    </suite-files>
+
+</suite>

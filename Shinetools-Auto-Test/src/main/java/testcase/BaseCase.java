@@ -16,6 +16,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @Author GrayCat.
  * @date 2022/01/12 11:09
+ * 执行顺序：@BeforeSuite->@BeforeTest->@BeforeGroups->@BeforeClass->{@BeforeMethod->@Test->@AfterMethod}->@AfterClass->@AfterGroups->@AfterTest->@AfterSuite
  */
 public class BaseCase {
     public AppiumDriver appiumDriver;
@@ -28,6 +29,12 @@ public class BaseCase {
 
     public AppiumDriver getDriver() {
         return appiumDriver;
+    }
+
+    @BeforeGroups(groups = {"login","base"})
+    public void init_login_group() throws MalformedURLException {
+        System.out.println("执行beforeGroup注解方法");
+        classLevelSetup();
     }
 
     @BeforeClass(groups = "base")
@@ -59,16 +66,6 @@ public class BaseCase {
         configsPage = new ConfigsPage(appiumDriver);
     }
 
-    @BeforeGroups(groups = {"login","base"})
-    public void init_login_group() throws MalformedURLException {
-        System.out.println("init login group.");
-        classLevelSetup();
-    }
-
-    @BeforeMethod(groups = {"base","login"})
-    public void init_login_situation() throws InterruptedException {
-        System.out.println("login分组里的before method开始执行");
-    }
 
     @AfterClass(groups = {"base"})
     public void teardown() {

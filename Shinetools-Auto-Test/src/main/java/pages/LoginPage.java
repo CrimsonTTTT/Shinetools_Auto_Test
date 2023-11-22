@@ -72,4 +72,9 @@ public class LoginPage extends BasePage{
         }
     }
 
+    // 取消按钮，登录后那个下载固件包失败弹窗的取消
+    public void cancelDownLoad(){
+        chooseServerArea("取消");
+    }
+
 }
