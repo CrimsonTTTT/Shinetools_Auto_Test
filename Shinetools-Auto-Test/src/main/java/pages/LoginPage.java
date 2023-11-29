@@ -31,7 +31,7 @@ public class LoginPage extends BasePage{
         super(driver);
     }
 
-    public ChooseCollectorPage loginAsCustomer(  ){
+    public ChooseCollectorPage loginAsCustomer(  ) throws InterruptedException {
         // 获取当前日期
         LocalDate currentDate = LocalDate.now();
 
@@ -53,7 +53,7 @@ public class LoginPage extends BasePage{
         return new ChooseCollectorPage(appiumDriver);
     }
 
-    public ChooseCollectorPage loginAsEngineer( String username, String password, String serverArea ){
+    public ChooseCollectorPage loginAsEngineer( String username, String password, String serverArea ) throws InterruptedException {
         click(role_engineer);
         writeText(engineerUsernameInput,username);
         writeText(engineerPasswordInput,password);

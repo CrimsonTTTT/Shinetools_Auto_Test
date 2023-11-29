@@ -62,8 +62,9 @@ public class ExcelUtlis {
                     }else {
                         double high = setCellRange(cell.getStringCellValue(), 1);
                         double low = setCellRange(cell.getStringCellValue(), 2);
-                        rowTemp.setRangeHigh(high);
-                        rowTemp.setRangeLow(low);
+                        rowTemp.setRangeHigh(low);
+                        rowTemp.setRangeLow(high);
+                        System.out.println("excel解析顺序：" + high + "  low:" + low);
                     }
                 }else if ( j == 9 ){                // 第10列，参数可选选项值
                     rowTemp.setSelectValue(cell.getStringCellValue());
@@ -73,6 +74,8 @@ public class ExcelUtlis {
                     rowTemp.setRegister((int) cell.getNumericCellValue());
                 }else if ( j == 12 ){                // 第13列，寄存器长度
                     rowTemp.setRegisterLength((int) cell.getNumericCellValue());
+                }else if ( j == 13 ){               // 第14列，设置项精度
+                    rowTemp.setAccuracy( (float) cell.getNumericCellValue() );
                 }
                 else {
                     rowTemp.setRemark("Excel数据有问题，此行存在"+j+"列");
@@ -107,7 +110,7 @@ public class ExcelUtlis {
 
         Row row = sheet.getRow(rowIndex);
 
-        Cell cell = row.createCell(13); // 下标从0开始
+        Cell cell = row.createCell(15); // 下标从0开始
 
         cell.setCellValue(rowBo.getResult());
 

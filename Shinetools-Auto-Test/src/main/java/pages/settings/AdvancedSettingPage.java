@@ -36,7 +36,7 @@ public class AdvancedSettingPage extends BasePage {
      * @return void
      * @author Graycat. 2023/9/28 11:32
      */
-    public Map readRegisterValue( int type, int address, int lengthOrData ){
+    public Map readRegisterValue( int type, int address, int lengthOrData ) throws InterruptedException {
         writeText(commandType_input, String.valueOf(type));
         writeText(address_input, String.valueOf(address));
         writeText(lengthData_input, String.valueOf(lengthOrData));

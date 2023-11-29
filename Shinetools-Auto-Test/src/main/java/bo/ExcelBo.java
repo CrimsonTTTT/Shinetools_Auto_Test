@@ -33,4 +33,6 @@ public class ExcelBo {
     public int register;            // 寄存器地址
 
     public int registerLength;              // 寄存器长度
+
+    public float accuracy;          // 设置项精度
 }

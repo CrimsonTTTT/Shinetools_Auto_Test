@@ -35,7 +35,7 @@ public class ChooseProductionPage extends BasePage{
     /**
      *  选择Direct wifi下的产品类型，
      * */
-    public ScanCodePage chooseProductionType( int type ){
+    public ScanCodePage chooseProductionType( int type ) throws InterruptedException {
         if ( type == 0 ){
             click(MINType_btn);
         }else if( type == 1 ){
@@ -54,13 +54,13 @@ public class ChooseProductionPage extends BasePage{
     /**
      *  usb wifi链接流程
      */
-    public ScanCodePage connectUSBWifi(  ){
+    public ScanCodePage connectUSBWifi(  ) throws InterruptedException {
         click(next_btn);
         return new ScanCodePage(appiumDriver);
     }
 
     /** 测试用 */
-    public void chooseProductionType_USB( String name ){
+    public void chooseProductionType_USB( String name ) throws InterruptedException {
 //        click(min_tl_xh_item);
         swipeDownHalf();
         click(WIT_A_AE_AU);

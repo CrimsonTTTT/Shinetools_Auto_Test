@@ -58,7 +58,7 @@ public class DebugCase extends BaseCase{
     }
 
     @Test(description = "sph10k终端账号登录")
-    public void loginAsCustomerTest(){
+    public void loginAsCustomerTest() throws InterruptedException {
         loginPage.loginAsCustomer()
                 .chooseTool(2)
                 .chooseProductionType(2)
@@ -68,7 +68,7 @@ public class DebugCase extends BaseCase{
     }
 
     @Test(description = "usb_wifi连接设备进入设备首页")
-    public void no_devices_debug(  ){
+    public void no_devices_debug(  ) throws InterruptedException {
         // usb_wifi链接进入设备页面
         loginPage.loginAsCustomer()
                 .chooseTool(0)

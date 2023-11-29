@@ -25,7 +25,7 @@ public class ScanCodePage extends BasePage{
     /**
      * 选择待连接设备类型，0：扫码；1：手动输入
      * */
-    public ScanCodePage chooseInputSNType( int type ){
+    public ScanCodePage chooseInputSNType( int type ) throws InterruptedException {
         if( type == 0 ){
             click(scan_btn);
         }else if( type == 1 ){
@@ -41,7 +41,7 @@ public class ScanCodePage extends BasePage{
         return this;
     }
 
-    public void confirm(){
+    public void confirm() throws InterruptedException {
         click(confirm_btn);
     }
 
@@ -49,7 +49,7 @@ public class ScanCodePage extends BasePage{
         try{
             click(skip_btn);
         }
-        catch(TimeoutException e){
+        catch(TimeoutException | InterruptedException e){
             System.out.println("扫码页面的跳过按钮超时，判断为不存在");
         }
         return new ChooseProductionPage(appiumDriver);

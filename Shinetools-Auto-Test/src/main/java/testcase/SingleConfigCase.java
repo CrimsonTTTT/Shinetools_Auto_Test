@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * @Author Graycat.
  * @CreateTime 2023/11/20 14:44
- * @Descripe 使用TestNG的数据驱动，解耦单个设置项用例的执行 ------- 理论上可行, 需要看一下实际运行失败后是否能进行后续的操作
+ * @Descripe 使用TestNG的数据驱动，解耦单个设置项用例的执行 ------- 实际上前面的用例执行失败后会造成找不到后面的元素。需要想办法处理
  */
 public class SingleConfigCase extends BaseCase{
 
@@ -22,7 +22,7 @@ public class SingleConfigCase extends BaseCase{
     private String excelPath = "D:\\TestCode\\Auto_SPH10000TL-HU.xlsx";
 
     // 使用testng 的依赖注解。尝试下 或者使用static计数
-    @Test()
+    @Test
     public void connetDeviceTest() throws InterruptedException {
         // 直连wifi
         loginPage.loginAsEngineer("grt42110","pwd123456","中国大陆")
@@ -58,6 +58,8 @@ public class SingleConfigCase extends BaseCase{
 
             case "input":
                 System.out.println("输入型设置项的测试方法");
+                configsPage.
+                        testInputConfig(bo);
                 configsPage.backToHome(bo.getPath());
                 break;
 
