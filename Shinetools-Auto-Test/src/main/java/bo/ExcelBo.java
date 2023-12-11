@@ -12,7 +12,7 @@ import java.util.List;
 @Data
 public class ExcelBo {
 
-    public double testSN;              // 测试序号
+    public double testSN;           // 测试序号
 
     public List<String> path;       // 功能路径
 
@@ -32,7 +32,9 @@ public class ExcelBo {
 
     public int register;            // 寄存器地址
 
-    public int registerLength;              // 寄存器长度
+    public int registerLength;      // 寄存器长度
 
     public float accuracy;          // 设置项精度
+
+    public int runIgnore = 0;       // 是否忽略执行
 }

@@ -1,5 +1,6 @@
 package testcase;
 
+import config.LoggerLoad;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
@@ -19,27 +20,27 @@ import java.util.concurrent.TimeUnit;
  * 执行顺序：@BeforeSuite->@BeforeTest->@BeforeGroups->@BeforeClass->{@BeforeMethod->@Test->@AfterMethod}->@AfterClass->@AfterGroups->@AfterTest->@AfterSuite
  */
 public class BaseCase {
-    public AppiumDriver appiumDriver;
+    public static AppiumDriver appiumDriver;
 
-    public LoginPage loginPage;
+    public static LoginPage loginPage;
 
-    public DeviceHomePage deviceHomePage;
+    public static DeviceHomePage deviceHomePage;
 
-    public ConfigsPage configsPage;
+    public static ConfigsPage configsPage;
 
-    public AppiumDriver getDriver() {
+    public static AppiumDriver getDriver() {
         return appiumDriver;
     }
 
     @BeforeGroups(groups = {"login","base"})
     public void init_login_group() throws MalformedURLException {
-        System.out.println("执行beforeGroup注解方法");
+        LoggerLoad.debug("action run : beforeGroup注解方法");
         classLevelSetup();
     }
 
     @BeforeClass(groups = "base")
-    public void classLevelSetup() throws MalformedURLException {
-        System.out.println("执行beforeclass");
+    public static void classLevelSetup() throws MalformedURLException {
+        LoggerLoad.info("action run: @BeforeClass ");
         //打包DesiredCapabilities这个类
         DesiredCapabilities des2 = new DesiredCapabilities();
         // 指定测试平台
@@ -59,8 +60,8 @@ public class BaseCase {
     }
 
     @BeforeMethod(groups = "base")   // 每个methed方法之前运行一次
-    public void methodLevelSetup() {
-        System.out.println("执行before method");
+    public static void methodLevelSetup() {
+        LoggerLoad.debug("start run in @BeforeMethod.");
         loginPage = new LoginPage(appiumDriver);
         deviceHomePage = new DeviceHomePage(  appiumDriver);
         configsPage = new ConfigsPage(appiumDriver);
@@ -69,7 +70,7 @@ public class BaseCase {
 
     @AfterClass(groups = {"base"})
     public void teardown() {
-        System.out.println("执行after class");
+        LoggerLoad.info("action run: @after class, 关闭服务");
         // 关闭服务
         appiumDriver.quit();
     }

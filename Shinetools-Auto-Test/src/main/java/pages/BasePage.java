@@ -3,6 +3,7 @@ package pages;
 import java.time.Duration;
 import java.util.List;
 
+import config.LoggerLoad;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.touch.WaitOptions;
@@ -23,10 +24,11 @@ public class BasePage {
     public AppiumDriver appiumDriver;
     public WebDriverWait appiumDriverWait;
 
+    By back_btn = By.className("android.widget.ImageButton");
 
     public BasePage(AppiumDriver driver){
         this.appiumDriver = driver;
-        appiumDriverWait = new WebDriverWait(driver, 10 );
+        appiumDriverWait = new WebDriverWait(driver, 60 );
     }
 
     //Wait
@@ -38,13 +40,18 @@ public class BasePage {
         return appiumDriverWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(by));
     }
 
+    // 等待当前页面的所有元素加载完成后再操作
+    public List<WebElement> waitPresenceOfAllElements(By by) {
+        return appiumDriverWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
+    }
+
     //Click Method
     public void click(By by) throws InterruptedException {
         try{
             waitVisibility(by).click();
         }catch (TimeoutException e){
             // 可以优化，判断加载框的情况
-            System.out.println("点击时找不到元素.等待时间+5s后再次点击看看情况.");
+            LoggerLoad.info("点击时找不到元素.等待时间+5s后再次点击看看情况.");
             Thread.sleep(5*1000);
             waitVisibility(by).click();
         }
@@ -86,16 +93,11 @@ public class BasePage {
 
     /** 返回操作 */
     public void back( By by ){
-//        if ( waitVisibility(by) != null ){
-//            // 如果元素可见
-//            appiumDriver.navigate().back();
-//        }else{
-//            // 当前页面处于不可返回状态
-//            System.out.println("当前页面处于不可返回状态");
-//        }
         appiumDriver.navigate().back();
     }
-
-
+    /** 返回操作: 点击左上角返回操作 */
+    public void clickBackBtn(  ) throws InterruptedException {
+        click(back_btn);
+    }
 
 }

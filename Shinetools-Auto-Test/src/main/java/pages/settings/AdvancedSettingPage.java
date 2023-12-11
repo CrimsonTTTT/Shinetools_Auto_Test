@@ -1,10 +1,13 @@
 package pages.settings;
 
+import config.LoggerLoad;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import pages.BasePage;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -29,7 +32,7 @@ public class AdvancedSettingPage extends BasePage {
     }
 
     /**
-     * Description:  读取指令
+     * Description:  读取单个寄存器数值
      * @param type int
      * @param address int
      * @param lengthOrData int
@@ -43,6 +46,22 @@ public class AdvancedSettingPage extends BasePage {
         click(confirm_btn);
         String result = readText(result_data_list);     // 只返回一个寄存器长度的数据，实际页面可能存在多个结果
         return analysisResultStrToMap(result);
+    }
+    /**
+     *  读取多个寄存器数值
+     * */
+    public Map readMultiRegisterValue( int type, int address, int lengthOrData ) throws InterruptedException {
+        writeText(commandType_input, String.valueOf(type));
+        writeText(address_input, String.valueOf(address));
+        writeText(lengthData_input, String.valueOf(lengthOrData));
+        click(confirm_btn);
+
+        Map result = new HashMap<>();
+        List<WebElement> result_data_list_element = waitVisibilityWithAll(result_data_list);
+        for (WebElement item: result_data_list_element){
+            result.putAll(analysisResultStrToMap(item.getText()));
+        }
+        return result;
     }
 
     public void backToDeviceHome(  ){
@@ -62,10 +81,12 @@ public class AdvancedSettingPage extends BasePage {
             numberMap.put(key, value);
         }
 
-        System.out.println("读取寄存器的结果str: " + str);
+        LoggerLoad.info("读取寄存器的结果str: " + str);
 //        System.out.println("转换后的Map: " + numberMap);
 
         return numberMap;
     }
+
+
 
 }

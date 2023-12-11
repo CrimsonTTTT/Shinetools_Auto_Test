@@ -2,6 +2,7 @@
 <suite name="ShineTools_SingleConfigureTestDebug">
     <listeners>
         <listener class-name="config.GlobalExceptionHandler"></listener>
+        <listener class-name="config.GlobyReportConfig"></listener>
     </listeners>
 
     <test name="ExecutingListeners">

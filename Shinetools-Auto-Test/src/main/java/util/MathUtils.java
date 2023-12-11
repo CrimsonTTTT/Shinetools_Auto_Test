@@ -1,5 +1,7 @@
 package util;
 
+import config.LoggerLoad;
+
 import java.text.DecimalFormat;
 import java.util.Random;
 
@@ -34,15 +36,25 @@ public class MathUtils {
      * */
     public static int countDecimalPlaces(float number) {
         String numberString = Float.toString(number);
-        System.out.println("待计算的flaot str " + numberString);
 
         // Check if the number is an integer
         if (numberString.indexOf('.') == -1 || numberString.equals("1.0") || numberString.equals("1") ) {
+            LoggerLoad.debug("待计算小数位的float str " + numberString + "; 计算结果：0" );
             return 0;  // No decimal places
         }
         // Count the number of decimal places
         int result = numberString.length() - numberString.indexOf('.') - 1;
-        System.out.println("; 计算结果："+result);
+        LoggerLoad.info("待计算小数位的float str:" + numberString + "; 计算结果：" + result);
         return result;
+    }
+
+    /**
+     * 对比两个double数值是否相等
+     * */
+    public static boolean compareDoubleEquals(double a, double b){
+        // 定义一个精度范围，根据需求调整
+        double epsilon = 0.0001;
+        // 使用精度范围进行比较
+        return Math.abs(a - b) < epsilon;
     }
 }

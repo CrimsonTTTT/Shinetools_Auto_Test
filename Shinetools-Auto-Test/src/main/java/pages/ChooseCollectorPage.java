@@ -1,5 +1,6 @@
 package pages;
 
+import config.LoggerLoad;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 
@@ -36,7 +37,7 @@ public class ChooseCollectorPage extends BasePage{
         }else if( type == 4 ){
             waitVisibilityWithAll(directWifi_btn).get(4).click();
         }else{
-            System.out.println("就五个工具，你想选啥！");
+            LoggerLoad.info("就五个工具，你想选啥！");
         }
         return new ChooseProductionPage(appiumDriver);
     }

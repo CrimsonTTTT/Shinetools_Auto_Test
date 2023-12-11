@@ -14,9 +14,18 @@
         <apahce-poi-version>5.0.0</apahce-poi-version>
         <lombok-version>1.18.12</lombok-version>
         <testNG-version>7.4.0</testNG-version>
+        <extentreports-version>5.0.8</extentreports-version>
     </properties>
 
     <dependencies>
+
+        <!--    测试报告    -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>${extentreports-version}</version>
+        </dependency>
+
         <!--    log4j2 日志集成    -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>

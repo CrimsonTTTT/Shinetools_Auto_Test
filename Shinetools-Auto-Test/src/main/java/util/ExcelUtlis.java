@@ -1,6 +1,7 @@
 package util;
 
 import bo.ExcelBo;
+import config.LoggerLoad;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -64,7 +65,7 @@ public class ExcelUtlis {
                         double low = setCellRange(cell.getStringCellValue(), 2);
                         rowTemp.setRangeHigh(low);
                         rowTemp.setRangeLow(high);
-                        System.out.println("excel解析顺序：" + high + "  low:" + low);
+                        LoggerLoad.debug("excel解析顺序：" + high + "  low:" + low);
                     }
                 }else if ( j == 9 ){                // 第10列，参数可选选项值
                     rowTemp.setSelectValue(cell.getStringCellValue());
@@ -76,6 +77,8 @@ public class ExcelUtlis {
                     rowTemp.setRegisterLength((int) cell.getNumericCellValue());
                 }else if ( j == 13 ){               // 第14列，设置项精度
                     rowTemp.setAccuracy( (float) cell.getNumericCellValue() );
+                }else if ( j == 14 ){               // 第15列，是否忽略执行
+                    rowTemp.setRunIgnore( (int) cell.getNumericCellValue() );
                 }
                 else {
                     rowTemp.setRemark("Excel数据有问题，此行存在"+j+"列");
@@ -124,23 +127,17 @@ public class ExcelUtlis {
         fileOut.close();
     }
 
-    /**
-     *  获取当前列表数据
-     * */
-    public void getConfigDataList(){
-
-    }
 
     public void setExcelPath( String path ){
         EXCEL_PATH = path;
     }
 
     /**
-     * 解析范围，type=1时为下限，其他为上限
+     * 解析excel钟中的参数设置范围，type=1时为下限，其他为上限
      * */
     public double setCellRange( String range, int type ) {
         // 使用逗号分割字符串
-        String[] parts = range.split(",");
+        String[] parts = range.split("、");
         double value1 = 0, value2 = 0;
         if (parts.length == 2) {
             try {

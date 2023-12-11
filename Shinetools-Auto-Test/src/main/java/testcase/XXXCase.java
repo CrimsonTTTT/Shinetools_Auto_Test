@@ -10,6 +10,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import util.ExcelUtlis;
 import util.MathUtils;
+import util.StrUtils;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -51,13 +52,16 @@ public class XXXCase {
 
     @Test
     public void getRegisterResult( ) throws IOException {
-        String str = "范围值:0~2000V";
+        String str = "范围值:52.1~59.2V";
+        String str1 = "范围值:0~222V";
+        String str2 = "dfd:-20.1~-1.0V";
+
         // 定义正则表达式
-        String regex = "(\\d+)~(\\d+)";
+        String regex = "(-?\\d+(?:\\.\\d*)?)~(-?\\d+(?:\\.\\d*)?)";
         // 编译正则表达式
         Pattern pattern = Pattern.compile(regex);
         // 创建 Matcher 对象
-        Matcher matcher = pattern.matcher(str);
+        Matcher matcher = pattern.matcher(str2);
         // 查找匹配
         if (matcher.find()) {
             // 获取第一个匹配组的值（0 的值）
@@ -132,6 +136,49 @@ public class XXXCase {
         LoggerLoad.debug("this is debug level.");
     }
 
+    @Test
+    public void debugChangeType(){
+        String a = "461.0";
+        String b = "46.1";
+        float jingdu = 0.1f;
+
+        double d_a = Double.parseDouble(a);
+        double d_b = Double.parseDouble(b);
+
+        System.out.println(d_b/jingdu + "  "+ d_a);
+        System.out.println( MathUtils.compareDoubleEquals(d_a,d_b/jingdu));
+
+    }
+
+    @Test
+    public void debugNumsParseStr(){
+        // 8位二进制码
+        String binaryCode = "01010011";
+
+        // 将8位二进制码转换为字符
+        char resultChar = binaryCodeToChar(binaryCode);
+
+        // 打印结果
+        System.out.println("Binary Code: " + binaryCode);
+        System.out.println("Corresponding Character: " + resultChar);
+
+        System.out.println(StrUtils.numbersParseToStr(21323));
+        StrUtils.numbersParseToStr(21323);
+        StrUtils.numbersParseToStr(12336);
+        StrUtils.numbersParseToStr(12334);
+        StrUtils.numbersParseToStr(11568);
+        StrUtils.numbersParseToStr(12408);
+
+    }
+
+    // 将8位二进制码转换为字符
+    private static char binaryCodeToChar(String binaryCode) {
+        // 将二进制字符串转换为整数
+        int intValue = Integer.parseInt(binaryCode, 2);
+
+        // 将整数转换为字符
+        return (char) intValue;
+    }
 
 
 }
