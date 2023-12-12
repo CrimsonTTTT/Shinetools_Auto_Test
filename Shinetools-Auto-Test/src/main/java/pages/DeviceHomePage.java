@@ -30,9 +30,7 @@ public class DeviceHomePage extends BasePage{
     public ConfigsPage intoConfig( String configName ) throws InterruptedException {
         swipeDownHalf();
         List<WebElement> configList = waitVisibilityWithAll(config_list);
-//        if (configName.equals("快速设置")){
-//            Thread.sleep(1000*5);
-//        }
+
         for ( WebElement item: configList ){
             if (item.getText().equals(configName)){
                 item.click();
@@ -42,19 +40,10 @@ public class DeviceHomePage extends BasePage{
         return new ConfigsPage(appiumDriver);
     }
 
-//    /**
-//     * Description:  从首页向指定设置项的路径跳转
-//     * @param excelRow bo.ExcelBo
-//     * @return void
-//     * @author Graycat. 2023/9/28 18:19
-//     */
-//    public void toConfigPage(ExcelBo excelRow) {
-//        List<String> pathList = excelRow.getPath();
-//        List<WebElement> actualConfigList = waitVisibilityWithAll(config_list);
-//
-//        for(String item: pathList){
-//            swipeDownHalf();
-//
-//        }
-//    }
+
+    public String readSingleDataText(By by){
+        return readText(by);
+    }
+
+
 }

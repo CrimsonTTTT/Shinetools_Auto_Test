@@ -3,6 +3,10 @@ package testcase;
 import bo.ExcelBo;
 import config.LoggerLoad;
 import config.RetryHandler;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -22,6 +26,8 @@ import java.util.Map;
  * @Descripe 使用TestNG的数据驱动，解耦单个设置项用例的执行 ------- 实际上前面的用例执行失败后会造成找不到后面的元素。
  *          解决方案：使用testng失败重试机制，失败后断开driver，再重连设备进行后续测试
  */
+@Epic("ShineTools")   // 标记属于哪个项目
+@Feature("设置项")     // 标记属于哪个模块
 public class SingleConfigCase extends BaseCase{
 
     private ExcelUtlis excelUtlis = new ExcelUtlis();
@@ -29,7 +35,7 @@ public class SingleConfigCase extends BaseCase{
     private String excelPath = "C:\\Users\\grt-linweijia\\Desktop\\Auto_SPH10000TL-HU - 副本.xlsx";
 
 
-    // 使用testng 的依赖注解。尝试下 或者使用static计数
+    // 使用testng 的依赖注解。
     @Test
     public static void connectDeviceTest() throws InterruptedException {
         // 直连wifi
@@ -47,7 +53,7 @@ public class SingleConfigCase extends BaseCase{
         if (bo.getRunIgnore() == 1){
             bo.setResult("Ignore");
             excelUtlis.writeExcelRowResult(bo);
-            return;
+            throw new SkipException("标记TestNG结果为不执行.");
         }
 
         LoggerLoad.info("当前执行的测试项：" + bo.toString());
@@ -125,7 +131,9 @@ public class SingleConfigCase extends BaseCase{
         return result;
     }
 
-    @Test
+    @Test(enabled = false)
+    @io.qameta.allure.Story("设置为不执行")
+    @io.qameta.allure.Description("这个@Description")
     public void debugTest() throws InterruptedException {
         connectDeviceTest();
         deviceHomePage.intoConfig("高级设置");
@@ -133,7 +141,7 @@ public class SingleConfigCase extends BaseCase{
         Map result = advancedSettingPage.readMultiRegisterValue(3,10000,1);
         System.out.println(result.get(10000) + " ss:" + result.get(10001));
         System.out.println(result);
-
     }
+
 
 }

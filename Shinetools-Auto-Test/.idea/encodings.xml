@@ -3,6 +3,7 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="GBK">
     <file url="file://$PROJECT_DIR$/Report/testReport.html" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/pages/ChooseCollectorPage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/testcase/XXXCase.java" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

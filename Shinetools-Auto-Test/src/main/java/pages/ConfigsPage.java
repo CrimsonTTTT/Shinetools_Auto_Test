@@ -12,10 +12,7 @@ import util.ExcelUtlis;
 import util.MathUtils;
 import util.StrUtils;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -136,9 +133,84 @@ public class ConfigsPage extends BasePage{
      * @author Graycat. 2023/12/11 14:12
      */
     public ExcelBo testSelectConfig( ExcelBo excelRow ) throws InterruptedException {
-        return  compareSelectOption(excelRow);
+//        return  compareSelectOption(excelRow);
+        compareSelectOptionWithJson(excelRow);
+        return null;
     }
 
+    /**  对比单选设置项的逻辑：优化对比逻辑，用JSON格式读取数据  */
+    public void compareSelectOptionWithJson(ExcelBo row) throws InterruptedException {
+        String configName = findConfigNameOnConfigPage(row.getPath());
+        clickConfigItem(configName);
+        LoggerLoad.debug("row.selectValue: " + row.getSelectValue());
+        // 获取实际页面选项值
+        List<WebElement> actualSelectArea = waitVisibilityWithAll(select_value_area);
+        List<WebElement> actualSelectList = actualSelectArea.get(0).findElements(select_value);
+        List<String> actualSelectStrList = new ArrayList<>();
+        for (WebElement item : actualSelectList){
+            actualSelectStrList.add(item.getText());
+        }
+        String selectValueStr = row.getSelectValue();
+        List<String> expectSelectList = new ArrayList<>();
+        // 使用 FastJson 将 JSON 字符串转换为 Map
+        LinkedHashMap<String, Integer> expectMap = new LinkedHashMap<>();
+        expectMap = JSON.parseObject(selectValueStr, new TypeReference<LinkedHashMap<String, Integer>>(){});
+        for (Map.Entry<String,Integer> item: expectMap.entrySet()){
+            expectSelectList.add(item.getKey());
+        }
+        LoggerLoad.debug("预期选项map：" + expectMap);
+        LoggerLoad.info("预期页面选项值：" + expectSelectList);
+        LoggerLoad.info("实际页面选项值：" + actualSelectStrList);
+
+        int resultFlag = 1;
+        // 判断实际页面的选项值是否与预期一致，若一致，进入单选项测试逻辑：逐项设置并返回到高级设置里读取对应的寄存器
+        AdvancedSettingPage advancedSettingPage = new AdvancedSettingPage(appiumDriver);
+        if( expectSelectList.equals(actualSelectStrList) ){
+            LoggerLoad.info("预期选项值ok，进入单选项对比测试逻辑^_^");
+            DeviceHomePage deviceHomePage = new DeviceHomePage(appiumDriver);
+            String testChooseValue = "";
+            for(int i = 0; i < actualSelectStrList.size(); i++){
+                actualSelectArea = waitVisibilityWithAll(select_value_area);
+                actualSelectList = actualSelectArea.get(0).findElements(select_value);
+                testChooseValue = actualSelectList.get(i).getText();
+                LoggerLoad.info("点击选择：" + testChooseValue);
+                actualSelectList.get(i).click();
+
+                backToHomeWithLeftTopBtn(row.getPath());
+                deviceHomePage.intoConfig("高级设置");
+                // 读取对应寄存器值
+                Map result = advancedSettingPage.readRegisterValue(row.getRegisterType(),row.getRegister(),row.getRegisterLength());
+                advancedSettingPage.back(By.id("乱七八糟的.用来返回设备首页"));
+
+                // 对比预期选项寄存器与实际设置成功之后result的值，若不一致，说明设置项设置之后对应的寄存器值未与选项一致；直接返回首页
+                int actualRegisterValue = (Integer) result.get(row.getRegister());
+                if ( expectMap.get(testChooseValue) != actualRegisterValue){
+                    resultFlag = 0;
+                    break;
+                }
+
+                // 上次写到这里。。。。。。。。。。。。
+                deviceHomePage.intoConfig(row.getPath().get(0));
+                toConfigPage(row.getPath());
+                clickConfigItem(configName);
+            }
+            // 跑完所有设置项进入，代表ok，flag = 1
+            if ( resultFlag == 1 ) {
+                row.setResult("Pass");
+                back(title_area);
+                return ;
+            }
+            row.setResult("修改后寄存器数值与设置不一致（未排除设置后返回失败的情况！）");
+            back(title_area);
+            return ;
+        }
+
+        row.setResult("预期选项值与实际选项不一致");
+        back(title_area);
+        return ;
+    }
+
+   /* *  对比单选设置项的逻辑：设置项严格对比顺序，且从0逐项递增，用、分割字符串
     public ExcelBo compareSelectOption( ExcelBo row ) throws InterruptedException {
         // 获取设置项名称并点击
         String configName = null;
@@ -215,7 +287,7 @@ public class ConfigsPage extends BasePage{
         row.setResult("预期选项值与实际选项不一致");
         back(title_area);
         return row;
-    }
+    }*/
 
 
     /**

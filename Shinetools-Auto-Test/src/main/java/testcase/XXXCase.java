@@ -1,11 +1,16 @@
 package testcase;
 
 import bo.ExcelBo;
+import bo.SingleReadDataBo;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.TypeReference;
 import config.LoggerLoad;
 import config.RetryHandler;
+import io.qameta.allure.*;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import util.ExcelUtlis;
@@ -16,10 +21,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.DecimalFormat;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -32,8 +34,8 @@ public class XXXCase {
     String excelPath = "D:\\TestCode\\ExcelTest.xlsx";
 
     /**
-     * Description:  è°ƒè¯•ç”¨ï¼Œç”¨æ¥æµ‹è¯•éƒ¨åˆ†ä»£ç ï¼›è¿œç¨‹ä»£ç ä¿®æ”¹ï¼›
-     *          è¿™æ˜¯åœ¨æœ¬åœ°çš„mainåˆ†æ”¯ä¿®æ”¹çš„....22222
+     * Description:  µ÷ÊÔÓÃ£¬ÓÃÀ´²âÊÔ²¿·Ö´úÂë£»Ô¶³Ì´úÂëĞŞ¸Ä£»
+     *          ÕâÊÇÔÚ±¾µØµÄmain·ÖÖ§ĞŞ¸ÄµÄ....22222
      * @param
      * @return void
      * @author Graycat. 2023/10/24 14:58
@@ -52,23 +54,23 @@ public class XXXCase {
 
     @Test
     public void getRegisterResult( ) throws IOException {
-        String str = "èŒƒå›´å€¼:52.1~59.2V";
-        String str1 = "èŒƒå›´å€¼:0~222V";
+        String str = "·¶Î§Öµ:52.1~59.2V";
+        String str1 = "·¶Î§Öµ:0~222V";
         String str2 = "dfd:-20.1~-1.0V";
 
-        // å®šä¹‰æ­£åˆ™è¡¨è¾¾å¼
+        // ¶¨ÒåÕıÔò±í´ïÊ½
         String regex = "(-?\\d+(?:\\.\\d*)?)~(-?\\d+(?:\\.\\d*)?)";
-        // ç¼–è¯‘æ­£åˆ™è¡¨è¾¾å¼
+        // ±àÒëÕıÔò±í´ïÊ½
         Pattern pattern = Pattern.compile(regex);
-        // åˆ›å»º Matcher å¯¹è±¡
+        // ´´½¨ Matcher ¶ÔÏó
         Matcher matcher = pattern.matcher(str2);
-        // æŸ¥æ‰¾åŒ¹é…
+        // ²éÕÒÆ¥Åä
         if (matcher.find()) {
-            // è·å–ç¬¬ä¸€ä¸ªåŒ¹é…ç»„çš„å€¼ï¼ˆ0 çš„å€¼ï¼‰
+            // »ñÈ¡µÚÒ»¸öÆ¥Åä×éµÄÖµ£¨0 µÄÖµ£©
             String firstValue = matcher.group(1);
-            // è·å–ç¬¬äºŒä¸ªåŒ¹é…ç»„çš„å€¼ï¼ˆ2000 çš„å€¼ï¼‰
+            // »ñÈ¡µÚ¶ş¸öÆ¥Åä×éµÄÖµ£¨2000 µÄÖµ£©
             String secondValue = matcher.group(2);
-            // è¾“å‡ºç»“æœ
+            // Êä³ö½á¹û
             System.out.println("firstValue: " + firstValue);
             System.out.println("secondValue: " + secondValue);
         }
@@ -80,7 +82,7 @@ public class XXXCase {
         // Your test logic here
         System.out.println("Test data: " + data);
         if ("fail".equals(data)) {
-            // æ¨¡æ‹Ÿæµ‹è¯•å¤±è´¥çš„æƒ…å†µ
+            // Ä£Äâ²âÊÔÊ§°ÜµÄÇé¿ö
             throw new RuntimeException("Test failed for data: " + data);
         }
     }
@@ -91,26 +93,26 @@ public class XXXCase {
         return new Object[][]{
                 {"data1"},
                 {"data2"},
-                {"fail"},  // è¿™é‡Œæ¨¡æ‹Ÿä¸€ä¸ªå¯¼è‡´å¤±è´¥çš„æ•°æ®
+                {"fail"},  // ÕâÀïÄ£ÄâÒ»¸öµ¼ÖÂÊ§°ÜµÄÊı¾İ
                 {"data3"},
-                // å¯ä»¥æ·»åŠ æ›´å¤šçš„æ•°æ®
+                // ¿ÉÒÔÌí¼Ó¸ü¶àµÄÊı¾İ
         };
     }
 
     @Test
     public  void test111(  ) {
-        // æŒ‡å®šèŒƒå›´å’Œå°æ•°ä½æ•°
+        // Ö¸¶¨·¶Î§ºÍĞ¡ÊıÎ»Êı
         double minValue = 5.0;
         double maxValue = 10.0;
         int decimalPlaces = 2;
 
-        // ç”Ÿæˆéšæœºæ•°
+        // Éú³ÉËæ»úÊı
         double randomValue = generateRandomNumber(minValue, maxValue);
 
-        // æ ¼å¼åŒ–éšæœºæ•°
+        // ¸ñÊ½»¯Ëæ»úÊı
         String formattedRandomValue = formatDecimal(9.87654321, decimalPlaces);
 
-        // è¾“å‡ºç»“æœ
+        // Êä³ö½á¹û
         System.out.println("Random number within range: " + formattedRandomValue);
     }
 
@@ -151,14 +153,20 @@ public class XXXCase {
     }
 
     @Test
+    @Epic("Õâ¸ö¸è@Epic")
+    @Feature("testNG+allure¼¯³É")                      // xxx
+    @Description("ÃèÊö×¢½â@Description£ºdebugÓÃ")       // ²âÊÔÁ÷³ÌÃèÊö
+    @Story("µ÷ÊÔ²âÊÔ×¢½â@Story")                        // ±ê×¢ĞÅÏ¢
+    @Severity(SeverityLevel.BLOCKER)                 // ±ê¼ÇÈ±ÏİµÈ¼¶
+    @Step                                            // ²½Öè
     public void debugNumsParseStr(){
-        // 8ä½äºŒè¿›åˆ¶ç 
+        // 8Î»¶ş½øÖÆÂë
         String binaryCode = "01010011";
 
-        // å°†8ä½äºŒè¿›åˆ¶ç è½¬æ¢ä¸ºå­—ç¬¦
+        // ½«8Î»¶ş½øÖÆÂë×ª»»Îª×Ö·û
         char resultChar = binaryCodeToChar(binaryCode);
 
-        // æ‰“å°ç»“æœ
+        // ´òÓ¡½á¹û
         System.out.println("Binary Code: " + binaryCode);
         System.out.println("Corresponding Character: " + resultChar);
 
@@ -171,14 +179,33 @@ public class XXXCase {
 
     }
 
-    // å°†8ä½äºŒè¿›åˆ¶ç è½¬æ¢ä¸ºå­—ç¬¦
+    // ½«8Î»¶ş½øÖÆÂë×ª»»Îª×Ö·û
     private static char binaryCodeToChar(String binaryCode) {
-        // å°†äºŒè¿›åˆ¶å­—ç¬¦ä¸²è½¬æ¢ä¸ºæ•´æ•°
+        // ½«¶ş½øÖÆ×Ö·û´®×ª»»ÎªÕûÊı
         int intValue = Integer.parseInt(binaryCode, 2);
 
-        // å°†æ•´æ•°è½¬æ¢ä¸ºå­—ç¬¦
+        // ½«ÕûÊı×ª»»Îª×Ö·û
         return (char) intValue;
     }
 
+    @Description("Description×¢½â£ºÑéÖ¤Ö÷Ò³²âÊÔ1")
+    @Story("»ù´¡²âÊÔ")
+    @Test
+    public void debugMap(){
 
+        String selectValueStr = "{'dd':1,   'µã »÷':2}";
+        LinkedHashMap<String,Integer> expectMap = new LinkedHashMap();
+        expectMap = JSON.parseObject(selectValueStr, new TypeReference<LinkedHashMap<String, Integer>>(){});
+        System.out.println(expectMap);
+        throw new SkipException("±ê¼ÇÎª²»Ö´ĞĞ.");
+    }
+
+    @Test
+    public void debugExcelData() throws IOException {
+        String path = "D:\\TestCode\\Auto_HomeData_SPH10000TL-HU.xlsx";
+        ExcelUtlis excelUtlis = new ExcelUtlis();
+        excelUtlis.setHomeDataExcelPath(path);
+        List<SingleReadDataBo> boList = excelUtlis.readExcelForHomeData();
+        System.out.println(boList);
+    }
 }

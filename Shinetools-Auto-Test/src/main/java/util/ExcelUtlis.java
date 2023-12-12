@@ -1,6 +1,7 @@
 package util;
 
 import bo.ExcelBo;
+import bo.SingleReadDataBo;
 import config.LoggerLoad;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -16,7 +17,8 @@ import java.util.List;
  */
 public class ExcelUtlis {
 
-    public String EXCEL_PATH;
+    public String EXCEL_PATH;               // 设置项文件
+    public String HOME_DATA_EXCEL_PATH = "D:\\TestCode\\Auto_HomeData_SPH10000TL-HU.xlsx";     // 首页数据点文件
 
     /**
      *  读取excel行到实体类BO
@@ -127,7 +129,6 @@ public class ExcelUtlis {
         fileOut.close();
     }
 
-
     public void setExcelPath( String path ){
         EXCEL_PATH = path;
     }
@@ -154,6 +155,85 @@ public class ExcelUtlis {
         if (type == 1) {
             return value1;
         }else return value2;
+    }
+
+    public void setHomeDataExcelPath( String path ){
+        HOME_DATA_EXCEL_PATH = path;
+    }
+
+    /**
+     * Description:  读取homeData数据文件
+     * @param
+     * @return void
+     * @author Graycat. 2023/12/12 16:58
+     */
+    public List<SingleReadDataBo> readExcelForHomeData() throws IOException {
+        // 创建一个 FileInputStream 对象，指向 Excel 文件
+        FileInputStream inputStream = null;
+        try {
+            inputStream = new FileInputStream(HOME_DATA_EXCEL_PATH);
+        } catch (FileNotFoundException e) {
+            System.out.println("文件路径为空，检查下.");
+            throw new RuntimeException(e);
+        }
+
+        // 创建一个 Workbook 对象
+        Workbook workbook = new XSSFWorkbook(inputStream);
+
+        // 获取第一个工作表
+        Sheet sheet = workbook.getSheetAt(0);
+
+        List<SingleReadDataBo> result = new ArrayList<>();
+
+        // 遍历工作表中的所有行, 第一行为表头，跳过，从第二行开始
+        for (int i = 1; i < sheet.getPhysicalNumberOfRows(); i++) {
+            // 获取一行
+            Row row = sheet.getRow(i);
+            // 记录一行
+            SingleReadDataBo rowTemp = new SingleReadDataBo();
+            // 记录功能路径
+            List<String> funPath = new ArrayList<>();
+
+            // 遍历行中的所有列
+            for (int j = 0; j < row.getPhysicalNumberOfCells(); j++) {
+                // 获取一列，一格
+                Cell cell = row.getCell(j);
+                // 根据列数判断类型并赋值
+                switch (j){
+                    case 0:
+                        rowTemp.setTestSN((int) cell.getNumericCellValue());
+                        break;
+                    case 1:
+                        rowTemp.setName(cell.getStringCellValue());
+                        break;
+                    case 2:
+                        rowTemp.setRegisterType((int) cell.getNumericCellValue());
+                        break;
+                    case 3:
+                        rowTemp.setRegister((int) cell.getNumericCellValue());
+                        break;
+                    case 4:
+                        rowTemp.setRegisterLength((int) cell.getNumericCellValue());
+                        break;
+                    case 5:
+                        rowTemp.setAccuracy((float) cell.getNumericCellValue());
+                        break;
+                    case 6:
+                        rowTemp.setElementId(cell.getStringCellValue());
+                        break;
+                    case 7:
+                        rowTemp.setRunIgnore((int) cell.getNumericCellValue());
+                        break;
+                    default:
+                        LoggerLoad.warn("解析excel文件，出问题拉.");
+                        break;
+                }
+            }
+            result.add(rowTemp);
+        }
+        // 关闭 FileInputStream 对象
+        inputStream.close();
+        return result;
     }
 
 

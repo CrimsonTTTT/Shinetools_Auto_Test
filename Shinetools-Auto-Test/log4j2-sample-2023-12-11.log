@@ -1,0 +1,1609 @@
+[INFO ] 2023-12-11 13:55:50.067 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 13:56:06.745 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 13:57:00.825 [main] LoggerLoad - 读取寄存器的结果str: 1000--49393
+[INFO ] 2023-12-11 13:57:00.895 [main] LoggerLoad - 读取寄存器的结果str: 1001--0
+[INFO ] 2023-12-11 13:57:00.901 [main] LoggerLoad - action run: @after class, 关闭服务
+[INFO ] 2023-12-11 13:58:13.187 [main] LoggerLoad - action run: @BeforeClass 
+[INFO ] 2023-12-11 13:59:06.791 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 13:59:17.649 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 14:00:27.592 [main] LoggerLoad - 读取寄存器的结果str: 1000--49393
+[INFO ] 2023-12-11 14:00:27.678 [main] LoggerLoad - 读取寄存器的结果str: 1001--0
+[INFO ] 2023-12-11 14:00:27.762 [main] LoggerLoad - 读取寄存器的结果str: 1002--0
+[INFO ] 2023-12-11 14:00:28.748 [main] LoggerLoad - 读取寄存器的结果str: 1003--0
+[INFO ] 2023-12-11 14:00:28.839 [main] LoggerLoad - 读取寄存器的结果str: 1004--0
+[INFO ] 2023-12-11 14:00:28.845 [main] LoggerLoad - action run: @after class, 关闭服务
+[INFO ] 2023-12-11 14:00:55.368 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 14:01:06.215 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 14:01:57.323 [main] LoggerLoad - 读取寄存器的结果str: 10000--1
+[INFO ] 2023-12-11 14:01:57.326 [main] LoggerLoad - action run: @after class, 关闭服务
+[DEBUG] 2023-12-11 14:43:35.536 [main] LoggerLoad - 转换成二进制值为：101001101001011
+[DEBUG] 2023-12-11 14:55:09.854 [main] LoggerLoad - 转换成二进制值为：0101001101001011
+[DEBUG] 2023-12-11 15:00:40.082 [main] LoggerLoad - 转换成二进制值为：0101001101001011  i那天Value：21323
+[DEBUG] 2023-12-11 15:14:20.840 [main] LoggerLoad - 转换成二进制值为：0101001101001011  对应的字符为：) %
+[DEBUG] 2023-12-11 15:15:44.461 [main] LoggerLoad - 转换成二进制值为：0101001101001011  对应的字符为：0101001 0100101
+[DEBUG] 2023-12-11 15:15:44.466 [main] LoggerLoad - 转换成二进制值为：0101001101001011  对应的字符为：) %
+[DEBUG] 2023-12-11 15:16:32.198 [main] LoggerLoad - 转换成二进制值为：0101001101001011  对应的字符为：01010011 01001011
+[DEBUG] 2023-12-11 15:16:32.203 [main] LoggerLoad - 转换成二进制值为：0101001101001011  对应的字符为：S K
+[DEBUG] 2023-12-11 15:17:44.851 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 15:18:58.736 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 15:19:54.818 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 15:19:54.822 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 15:19:54.822 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:19:54.822 [main] LoggerLoad - 转换成二进制值为：00110000 00101110  对应的字符为：0 .
+[DEBUG] 2023-12-11 15:19:54.822 [main] LoggerLoad - 转换成二进制值为：00101101 00110000  对应的字符为：- 0
+[DEBUG] 2023-12-11 15:19:54.823 [main] LoggerLoad - 转换成二进制值为：00110000 01111000  对应的字符为：0 x
+[INFO ] 2023-12-11 15:37:07.673 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 15:37:22.144 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:03.666 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 15:38:03.667 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 15:38:03.670 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 15:38:03.670 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 15:38:03.671 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 15:38:03.672 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 15:38:03.672 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 15:38:03.673 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 15:38:03.673 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 15:38:03.675 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 15:38:03.676 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 15:38:03.676 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 15:38:03.676 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 15:38:03.677 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 15:38:03.677 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 15:38:03.677 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 15:38:03.678 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 15:38:03.678 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 15:38:03.678 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 15:38:03.678 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 15:38:03.679 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 15:38:03.679 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 15:38:03.679 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 15:38:03.680 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 15:38:03.680 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 15:38:03.681 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 15:38:03.685 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:03.983 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:04.078 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:04.162 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:04.246 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:04.335 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:04.420 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:04.491 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:04.566 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:04.653 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:04.728 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:04.835 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:05.024 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:05.085 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:05.150 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:38:05.228 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 15:38:05.230 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=16.0, path=[系统配置, 检查固件1/2/3, 检查固件1, /, /, /], type=text, rangeHigh=0.0, rangeLow=0.0, selectValue=/, result=null, remark=Excel数据有问题，此行存在15列, registerType=4, register=10050, registerLength=7, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 15:38:15.313 [main] LoggerLoad - =================文本设置项的测试方法,准备执行======================
+[INFO ] 2023-12-11 15:38:15.576 [main] LoggerLoad - 实际设置项文本内容：SK000.00-0000x
+[INFO ] 2023-12-11 15:38:15.577 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 检查固件1/2/3, 检查固件1, /, /, /]
+[DEBUG] 2023-12-11 15:38:15.925 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 15:38:17.947 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:38:29.378 [main] LoggerLoad - 读取寄存器的结果str: 10050--21323
+[INFO ] 2023-12-11 15:38:29.432 [main] LoggerLoad - 读取寄存器的结果str: 10051--12336
+[INFO ] 2023-12-11 15:38:29.494 [main] LoggerLoad - 读取寄存器的结果str: 10052--12334
+[INFO ] 2023-12-11 15:38:29.551 [main] LoggerLoad - 读取寄存器的结果str: 10053--12336
+[INFO ] 2023-12-11 15:38:29.623 [main] LoggerLoad - 读取寄存器的结果str: 10054--11568
+[INFO ] 2023-12-11 15:38:29.699 [main] LoggerLoad - 读取寄存器的结果str: 10055--12336
+[INFO ] 2023-12-11 15:38:29.773 [main] LoggerLoad - 读取寄存器的结果str: 10056--12408
+[DEBUG] 2023-12-11 15:38:29.774 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 15:38:29.774 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:38:29.774 [main] LoggerLoad - 转换成二进制值为：00110000 00101110  对应的字符为：0 .
+[DEBUG] 2023-12-11 15:38:29.774 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:38:29.774 [main] LoggerLoad - 转换成二进制值为：00101101 00110000  对应的字符为：- 0
+[DEBUG] 2023-12-11 15:38:29.775 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:38:29.775 [main] LoggerLoad - 转换成二进制值为：00110000 01111000  对应的字符为：0 x
+[INFO ] 2023-12-11 15:38:29.775 [main] LoggerLoad - 实际读取寄存器数值为(转换后)：SK000.00-0000x
+[INFO ] 2023-12-11 15:38:29.824 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 15:38:29.826 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 15:38:29.827 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=17.0, path=[系统配置, 检查固件1/2/3, 检查固件2, /, /, /], type=text, rangeHigh=0.0, rangeLow=0.0, selectValue=/, result=null, remark=Excel数据有问题，此行存在15列, registerType=4, register=10057, registerLength=7, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 15:39:35.965 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.id: com.growatt.shinetools:id/tv_name (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VDI-ZNKZ-001', ip: '20.60.5.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, databaseEnabled: false, desired: {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, deviceName: device, noReset: true, platformName: android, platformVersion: 12, sessionOverride: true}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: 21091116C, deviceName: qsuofymjbap7yps8, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: qsuofymjbap7yps8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, sessionOverride: true, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2196, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 9a989041-5e60-4951-8c73-7bc6bfbf2e7e
+[INFO ] 2023-12-11 15:39:37.044 [main] LoggerLoad - action run: @BeforeClass 
+[INFO ] 2023-12-11 15:41:00.584 [main] LoggerLoad - action run: @BeforeClass 
+[INFO ] 2023-12-11 15:41:41.713 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 15:41:52.122 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:35.734 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 15:42:35.735 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 15:42:35.738 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 15:42:35.739 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 15:42:35.739 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 15:42:35.740 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 15:42:35.740 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 15:42:35.740 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 15:42:35.742 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 15:42:35.742 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 15:42:35.743 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 15:42:35.743 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 15:42:35.744 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 15:42:35.744 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 15:42:35.744 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 15:42:35.744 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 15:42:35.745 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 15:42:35.745 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 15:42:35.745 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 15:42:35.746 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 15:42:35.746 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 15:42:35.746 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 15:42:35.747 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 15:42:35.747 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 15:42:35.747 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 15:42:35.748 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 15:42:35.752 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:36.011 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:36.088 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:36.167 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:36.241 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:36.306 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:36.391 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:36.493 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:36.570 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:36.627 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:36.689 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:36.763 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:36.877 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:37.007 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:37.091 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:42:37.163 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 15:42:37.165 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=16.0, path=[系统配置, 检查固件1/2/3, 检查固件1, /, /, /], type=text, rangeHigh=0.0, rangeLow=0.0, selectValue=/, result=null, remark=Excel数据有问题，此行存在16列, registerType=4, register=10050, registerLength=7, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 15:43:15.310 [main] LoggerLoad - =================文本设置项的测试方法,准备执行======================
+[INFO ] 2023-12-11 15:43:16.132 [main] LoggerLoad - 实际设置项文本内容：SK000.00-0000x
+[INFO ] 2023-12-11 15:43:16.133 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 检查固件1/2/3, 检查固件1, /, /, /]
+[DEBUG] 2023-12-11 15:43:16.439 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 15:43:48.176 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:44:00.522 [main] LoggerLoad - 读取寄存器的结果str: 10050--21323
+[INFO ] 2023-12-11 15:44:00.586 [main] LoggerLoad - 读取寄存器的结果str: 10051--12336
+[INFO ] 2023-12-11 15:44:00.665 [main] LoggerLoad - 读取寄存器的结果str: 10052--12334
+[INFO ] 2023-12-11 15:44:00.736 [main] LoggerLoad - 读取寄存器的结果str: 10053--12336
+[INFO ] 2023-12-11 15:44:00.809 [main] LoggerLoad - 读取寄存器的结果str: 10054--11568
+[INFO ] 2023-12-11 15:44:00.879 [main] LoggerLoad - 读取寄存器的结果str: 10055--12336
+[INFO ] 2023-12-11 15:44:00.944 [main] LoggerLoad - 读取寄存器的结果str: 10056--12408
+[DEBUG] 2023-12-11 15:44:00.946 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 15:44:00.946 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:44:00.946 [main] LoggerLoad - 转换成二进制值为：00110000 00101110  对应的字符为：0 .
+[DEBUG] 2023-12-11 15:44:00.946 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:44:00.946 [main] LoggerLoad - 转换成二进制值为：00101101 00110000  对应的字符为：- 0
+[DEBUG] 2023-12-11 15:44:00.946 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:44:00.946 [main] LoggerLoad - 转换成二进制值为：00110000 01111000  对应的字符为：0 x
+[INFO ] 2023-12-11 15:44:00.947 [main] LoggerLoad - 实际读取寄存器数值为(转换后)：SK000.00-0000x
+[INFO ] 2023-12-11 15:44:01.801 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 15:44:01.806 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 15:44:01.807 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=17.0, path=[系统配置, 检查固件1/2/3, 检查固件2, /, /, /], type=text, rangeHigh=0.0, rangeLow=0.0, selectValue=/, result=null, remark=Excel数据有问题，此行存在15列, registerType=4, register=10057, registerLength=7, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 15:44:10.508 [main] LoggerLoad - =================文本设置项的测试方法,准备执行======================
+[INFO ] 2023-12-11 15:44:10.797 [main] LoggerLoad - 实际设置项文本内容：SK000.00-0000x
+[INFO ] 2023-12-11 15:44:10.797 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 检查固件1/2/3, 检查固件2, /, /, /]
+[DEBUG] 2023-12-11 15:44:11.121 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 15:44:12.900 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:44:24.466 [main] LoggerLoad - 读取寄存器的结果str: 10057--21323
+[INFO ] 2023-12-11 15:44:24.518 [main] LoggerLoad - 读取寄存器的结果str: 10058--12336
+[INFO ] 2023-12-11 15:44:24.577 [main] LoggerLoad - 读取寄存器的结果str: 10059--12334
+[INFO ] 2023-12-11 15:44:24.652 [main] LoggerLoad - 读取寄存器的结果str: 10060--12336
+[INFO ] 2023-12-11 15:44:24.728 [main] LoggerLoad - 读取寄存器的结果str: 10061--11568
+[INFO ] 2023-12-11 15:44:24.793 [main] LoggerLoad - 读取寄存器的结果str: 10062--12336
+[INFO ] 2023-12-11 15:44:24.881 [main] LoggerLoad - 读取寄存器的结果str: 10063--12336
+[DEBUG] 2023-12-11 15:44:24.882 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 15:44:24.882 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:44:24.882 [main] LoggerLoad - 转换成二进制值为：00110000 00101110  对应的字符为：0 .
+[DEBUG] 2023-12-11 15:44:24.882 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:44:24.882 [main] LoggerLoad - 转换成二进制值为：00101101 00110000  对应的字符为：- 0
+[DEBUG] 2023-12-11 15:44:24.882 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:44:24.882 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[INFO ] 2023-12-11 15:44:24.883 [main] LoggerLoad - 实际读取寄存器数值为(转换后)：SK000.00-00000
+[INFO ] 2023-12-11 15:44:26.716 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 15:44:26.722 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 15:44:26.724 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=18.0, path=[系统配置, 检查固件1/2/3, 检查固件3, /, /, /], type=text, rangeHigh=0.0, rangeLow=0.0, selectValue=/, result=null, remark=Excel数据有问题，此行存在15列, registerType=4, register=10064, registerLength=7, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 15:44:36.400 [main] LoggerLoad - =================文本设置项的测试方法,准备执行======================
+[INFO ] 2023-12-11 15:44:36.697 [main] LoggerLoad - 实际设置项文本内容：SK000.00-0000x
+[INFO ] 2023-12-11 15:44:36.697 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 检查固件1/2/3, 检查固件3, /, /, /]
+[DEBUG] 2023-12-11 15:44:37.024 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 15:44:38.991 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:44:49.340 [main] LoggerLoad - 读取寄存器的结果str: 10064--21323
+[INFO ] 2023-12-11 15:44:49.397 [main] LoggerLoad - 读取寄存器的结果str: 10065--12595
+[INFO ] 2023-12-11 15:44:49.582 [main] LoggerLoad - 读取寄存器的结果str: 10066--12590
+[INFO ] 2023-12-11 15:44:49.626 [main] LoggerLoad - 读取寄存器的结果str: 10067--12336
+[INFO ] 2023-12-11 15:44:49.678 [main] LoggerLoad - 读取寄存器的结果str: 10068--11569
+[INFO ] 2023-12-11 15:44:49.765 [main] LoggerLoad - 读取寄存器的结果str: 10069--12338
+[INFO ] 2023-12-11 15:44:49.901 [main] LoggerLoad - 读取寄存器的结果str: 10070--13361
+[DEBUG] 2023-12-11 15:44:49.901 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 15:44:49.901 [main] LoggerLoad - 转换成二进制值为：00110001 00110011  对应的字符为：1 3
+[DEBUG] 2023-12-11 15:44:49.901 [main] LoggerLoad - 转换成二进制值为：00110001 00101110  对应的字符为：1 .
+[DEBUG] 2023-12-11 15:44:49.901 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:44:49.901 [main] LoggerLoad - 转换成二进制值为：00101101 00110001  对应的字符为：- 1
+[DEBUG] 2023-12-11 15:44:49.901 [main] LoggerLoad - 转换成二进制值为：00110000 00110010  对应的字符为：0 2
+[DEBUG] 2023-12-11 15:44:49.901 [main] LoggerLoad - 转换成二进制值为：00110100 00110001  对应的字符为：4 1
+[INFO ] 2023-12-11 15:44:49.901 [main] LoggerLoad - 实际读取寄存器数值为(转换后)：SK131.00-10241
+[INFO ] 2023-12-11 15:44:51.687 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 15:44:51.690 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 15:44:51.691 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=19.0, path=[系统配置, 电表或CT选择, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue=cWiredCT、METER, result=null, remark=Excel数据有问题，此行存在16列, registerType=3, register=10192, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 15:44:56.830 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 15:44:58.677 [main] LoggerLoad - 点击设置项： 电表或CT选择
+[INFO ] 2023-12-11 15:45:00.405 [main] LoggerLoad - 页面实际选项值[cWiredCT, METER]
+[INFO ] 2023-12-11 15:45:00.406 [main] LoggerLoad - 页面预期选项值[cWiredCT, METER]
+[INFO ] 2023-12-11 15:45:00.406 [main] LoggerLoad - 进入单选项测试逻辑^_^
+[INFO ] 2023-12-11 15:45:00.704 [main] LoggerLoad - 点击选择：cWiredCT
+[INFO ] 2023-12-11 15:45:02.203 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 电表或CT选择, /, /, /, /]
+[DEBUG] 2023-12-11 15:45:02.482 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:45:13.916 [main] LoggerLoad - 读取寄存器的结果str: 10192--0
+[DEBUG] 2023-12-11 15:45:21.773 [main] LoggerLoad - 点击设置项： 电表或CT选择
+[INFO ] 2023-12-11 15:45:22.646 [main] LoggerLoad - 点击选择：METER
+[INFO ] 2023-12-11 15:45:24.409 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 电表或CT选择, /, /, /, /]
+[DEBUG] 2023-12-11 15:45:24.671 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:45:37.318 [main] LoggerLoad - 读取寄存器的结果str: 10192--2
+[INFO ] 2023-12-11 15:45:39.426 [main] LoggerLoad - 进入到返回操作[系统配置, 电表或CT选择, /, /, /, /]
+[DEBUG] 2023-12-11 15:45:41.768 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:45:41.848 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 15:45:41.878 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 15:45:41.879 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=20.0, path=[系统配置, 电网类型设置, 电网模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue=Genneral standard、NRS097, result=null, remark=Excel数据有问题，此行存在16列, registerType=3, register=10101, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 15:46:20.787 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 15:46:21.352 [main] LoggerLoad - 点击设置项： 电网模式
+[INFO ] 2023-12-11 15:46:22.318 [main] LoggerLoad - 页面实际选项值[Genneral standard, NRS097]
+[INFO ] 2023-12-11 15:46:22.318 [main] LoggerLoad - 页面预期选项值[Genneral standard, NRS097]
+[INFO ] 2023-12-11 15:46:22.318 [main] LoggerLoad - 进入单选项测试逻辑^_^
+[INFO ] 2023-12-11 15:46:22.649 [main] LoggerLoad - 点击选择：Genneral standard
+[INFO ] 2023-12-11 15:46:23.474 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 电网类型设置, 电网模式, /, /, /]
+[DEBUG] 2023-12-11 15:46:26.868 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 15:46:27.155 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:46:37.342 [main] LoggerLoad - 读取寄存器的结果str: 10101--0
+[DEBUG] 2023-12-11 15:46:47.866 [main] LoggerLoad - 点击设置项： 电网模式
+[INFO ] 2023-12-11 15:46:48.937 [main] LoggerLoad - 点击选择：NRS097
+[INFO ] 2023-12-11 15:46:49.709 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 电网类型设置, 电网模式, /, /, /]
+[DEBUG] 2023-12-11 15:46:51.816 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 15:46:53.550 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:47:04.862 [main] LoggerLoad - 读取寄存器的结果str: 10101--7
+[INFO ] 2023-12-11 15:47:07.027 [main] LoggerLoad - 进入到返回操作[系统配置, 电网类型设置, 电网模式, /, /, /]
+[DEBUG] 2023-12-11 15:47:08.170 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 15:47:09.008 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:47:09.029 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+java.io.FileNotFoundException: C:\Users\grt-linweijia\Desktop\Auto_SPH10000TL-HU - 副本.xlsx (另一个程序正在使用此文件，进程无法访问。)
+[INFO ] 2023-12-11 15:47:10.018 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 15:47:21.937 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:47:21.938 [main] LoggerLoad - 失败重新连接driver...success
+[INFO ] 2023-12-11 15:48:59.610 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 15:49:12.203 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:52.030 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 15:49:52.031 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 15:49:52.033 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 15:49:52.034 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 15:49:52.035 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 15:49:52.035 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 15:49:52.036 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 15:49:52.036 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 15:49:52.037 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 15:49:52.037 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 15:49:52.039 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 15:49:52.039 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 15:49:52.044 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 15:49:52.044 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 15:49:52.048 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 15:49:52.050 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 15:49:52.053 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 15:49:52.055 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 15:49:52.055 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 15:49:52.056 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 15:49:52.056 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 15:49:52.057 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 15:49:52.057 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 15:49:52.057 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 15:49:52.060 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 15:49:52.061 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 15:49:52.066 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:52.380 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:52.484 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:52.580 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:52.668 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:52.751 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:52.837 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:52.916 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:53.021 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:53.097 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:53.202 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:53.332 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:53.422 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:53.521 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:53.612 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 15:49:53.724 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 15:49:53.727 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=16.0, path=[系统配置, 检查固件1/2/3, 检查固件1, /, /, /], type=text, rangeHigh=0.0, rangeLow=0.0, selectValue=/, result=null, remark=Excel数据有问题，此行存在15列, registerType=4, register=10050, registerLength=7, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 15:50:06.969 [main] LoggerLoad - =================文本设置项的测试方法,准备执行======================
+[INFO ] 2023-12-11 15:50:07.287 [main] LoggerLoad - 实际设置项文本内容：SK000.00-0000x
+[INFO ] 2023-12-11 15:50:07.289 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 检查固件1/2/3, 检查固件1, /, /, /]
+[DEBUG] 2023-12-11 15:50:07.615 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 15:50:09.988 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:50:22.592 [main] LoggerLoad - 读取寄存器的结果str: 10050--21323
+[INFO ] 2023-12-11 15:50:22.662 [main] LoggerLoad - 读取寄存器的结果str: 10051--12336
+[INFO ] 2023-12-11 15:50:22.747 [main] LoggerLoad - 读取寄存器的结果str: 10052--12334
+[INFO ] 2023-12-11 15:50:22.822 [main] LoggerLoad - 读取寄存器的结果str: 10053--12336
+[INFO ] 2023-12-11 15:50:22.899 [main] LoggerLoad - 读取寄存器的结果str: 10054--11568
+[INFO ] 2023-12-11 15:50:23.033 [main] LoggerLoad - 读取寄存器的结果str: 10055--12336
+[INFO ] 2023-12-11 15:50:23.104 [main] LoggerLoad - 读取寄存器的结果str: 10056--12408
+[DEBUG] 2023-12-11 15:50:23.106 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 15:50:23.107 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:50:23.107 [main] LoggerLoad - 转换成二进制值为：00110000 00101110  对应的字符为：0 .
+[DEBUG] 2023-12-11 15:50:23.107 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:50:23.107 [main] LoggerLoad - 转换成二进制值为：00101101 00110000  对应的字符为：- 0
+[DEBUG] 2023-12-11 15:50:23.107 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:50:23.107 [main] LoggerLoad - 转换成二进制值为：00110000 01111000  对应的字符为：0 x
+[INFO ] 2023-12-11 15:50:23.107 [main] LoggerLoad - 实际读取寄存器数值为(转换后)：SK000.00-0000x
+[INFO ] 2023-12-11 15:50:23.935 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 15:50:23.937 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 15:50:23.946 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=17.0, path=[系统配置, 检查固件1/2/3, 检查固件2, /, /, /], type=text, rangeHigh=0.0, rangeLow=0.0, selectValue=/, result=null, remark=Excel数据有问题，此行存在15列, registerType=4, register=10057, registerLength=7, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 15:50:32.361 [main] LoggerLoad - =================文本设置项的测试方法,准备执行======================
+[INFO ] 2023-12-11 15:50:32.620 [main] LoggerLoad - 实际设置项文本内容：SK000.00-0000x
+[INFO ] 2023-12-11 15:50:32.620 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 检查固件1/2/3, 检查固件2, /, /, /]
+[DEBUG] 2023-12-11 15:50:33.462 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 15:50:35.283 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:50:46.534 [main] LoggerLoad - 读取寄存器的结果str: 10057--21323
+[INFO ] 2023-12-11 15:50:46.597 [main] LoggerLoad - 读取寄存器的结果str: 10058--12336
+[INFO ] 2023-12-11 15:50:46.653 [main] LoggerLoad - 读取寄存器的结果str: 10059--12334
+[INFO ] 2023-12-11 15:50:46.729 [main] LoggerLoad - 读取寄存器的结果str: 10060--12336
+[INFO ] 2023-12-11 15:50:46.786 [main] LoggerLoad - 读取寄存器的结果str: 10061--11568
+[INFO ] 2023-12-11 15:50:46.871 [main] LoggerLoad - 读取寄存器的结果str: 10062--12336
+[INFO ] 2023-12-11 15:50:46.941 [main] LoggerLoad - 读取寄存器的结果str: 10063--12336
+[DEBUG] 2023-12-11 15:50:46.941 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 15:50:46.942 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:50:46.942 [main] LoggerLoad - 转换成二进制值为：00110000 00101110  对应的字符为：0 .
+[DEBUG] 2023-12-11 15:50:46.942 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:50:46.942 [main] LoggerLoad - 转换成二进制值为：00101101 00110000  对应的字符为：- 0
+[DEBUG] 2023-12-11 15:50:46.942 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:50:46.942 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[INFO ] 2023-12-11 15:50:46.942 [main] LoggerLoad - 实际读取寄存器数值为(转换后)：SK000.00-00000
+[INFO ] 2023-12-11 15:50:48.562 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 15:50:48.564 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 15:50:48.568 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=18.0, path=[系统配置, 检查固件1/2/3, 检查固件3, /, /, /], type=text, rangeHigh=0.0, rangeLow=0.0, selectValue=/, result=null, remark=Excel数据有问题，此行存在15列, registerType=4, register=10064, registerLength=7, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 15:50:57.684 [main] LoggerLoad - =================文本设置项的测试方法,准备执行======================
+[INFO ] 2023-12-11 15:50:57.929 [main] LoggerLoad - 实际设置项文本内容：SK000.00-0000x
+[INFO ] 2023-12-11 15:50:57.929 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 检查固件1/2/3, 检查固件3, /, /, /]
+[DEBUG] 2023-12-11 15:50:58.204 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 15:51:00.277 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:51:11.351 [main] LoggerLoad - 读取寄存器的结果str: 10064--21323
+[INFO ] 2023-12-11 15:51:11.420 [main] LoggerLoad - 读取寄存器的结果str: 10065--12595
+[INFO ] 2023-12-11 15:51:11.505 [main] LoggerLoad - 读取寄存器的结果str: 10066--12590
+[INFO ] 2023-12-11 15:51:11.573 [main] LoggerLoad - 读取寄存器的结果str: 10067--12336
+[INFO ] 2023-12-11 15:51:11.636 [main] LoggerLoad - 读取寄存器的结果str: 10068--11569
+[INFO ] 2023-12-11 15:51:11.703 [main] LoggerLoad - 读取寄存器的结果str: 10069--12338
+[INFO ] 2023-12-11 15:51:11.760 [main] LoggerLoad - 读取寄存器的结果str: 10070--13361
+[DEBUG] 2023-12-11 15:51:11.760 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 15:51:11.760 [main] LoggerLoad - 转换成二进制值为：00110001 00110011  对应的字符为：1 3
+[DEBUG] 2023-12-11 15:51:11.760 [main] LoggerLoad - 转换成二进制值为：00110001 00101110  对应的字符为：1 .
+[DEBUG] 2023-12-11 15:51:11.761 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 15:51:11.761 [main] LoggerLoad - 转换成二进制值为：00101101 00110001  对应的字符为：- 1
+[DEBUG] 2023-12-11 15:51:11.761 [main] LoggerLoad - 转换成二进制值为：00110000 00110010  对应的字符为：0 2
+[DEBUG] 2023-12-11 15:51:11.761 [main] LoggerLoad - 转换成二进制值为：00110100 00110001  对应的字符为：4 1
+[INFO ] 2023-12-11 15:51:11.761 [main] LoggerLoad - 实际读取寄存器数值为(转换后)：SK131.00-10241
+[INFO ] 2023-12-11 15:51:12.552 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 15:51:12.553 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 15:51:12.554 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=19.0, path=[系统配置, 电表或CT选择, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue=cWiredCT、METER, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10192, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 15:51:18.030 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 15:51:19.915 [main] LoggerLoad - 点击设置项： 电表或CT选择
+[INFO ] 2023-12-11 15:51:20.908 [main] LoggerLoad - 页面实际选项值[cWiredCT, METER]
+[INFO ] 2023-12-11 15:51:20.908 [main] LoggerLoad - 页面预期选项值[cWiredCT, METER]
+[INFO ] 2023-12-11 15:51:20.908 [main] LoggerLoad - 进入单选项测试逻辑^_^
+[INFO ] 2023-12-11 15:51:21.824 [main] LoggerLoad - 点击选择：cWiredCT
+[INFO ] 2023-12-11 15:51:23.126 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 电表或CT选择, /, /, /, /]
+[DEBUG] 2023-12-11 15:51:23.396 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:51:35.305 [main] LoggerLoad - 读取寄存器的结果str: 10192--0
+[DEBUG] 2023-12-11 15:51:43.576 [main] LoggerLoad - 点击设置项： 电表或CT选择
+[INFO ] 2023-12-11 15:51:44.474 [main] LoggerLoad - 点击选择：METER
+[INFO ] 2023-12-11 15:51:45.726 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 电表或CT选择, /, /, /, /]
+[DEBUG] 2023-12-11 15:51:46.581 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:51:56.434 [main] LoggerLoad - 读取寄存器的结果str: 10192--2
+[INFO ] 2023-12-11 15:51:58.074 [main] LoggerLoad - 进入到返回操作[系统配置, 电表或CT选择, /, /, /, /]
+[DEBUG] 2023-12-11 15:51:59.433 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 15:51:59.465 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+java.io.FileNotFoundException: C:\Users\grt-linweijia\Desktop\Auto_SPH10000TL-HU - 副本.xlsx (另一个程序正在使用此文件，进程无法访问。)
+[INFO ] 2023-12-11 15:52:00.601 [main] LoggerLoad - action run: @BeforeClass 
+[INFO ] 2023-12-11 16:21:01.597 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 16:21:15.219 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:56.742 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 16:21:56.744 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 16:21:56.750 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 16:21:56.751 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 16:21:56.753 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 16:21:56.754 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 16:21:56.755 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 16:21:56.756 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 16:21:56.756 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 16:21:56.756 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 16:21:56.758 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 16:21:56.759 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 16:21:56.759 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 16:21:56.760 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 16:21:56.760 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 16:21:56.761 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 16:21:56.762 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 16:21:56.762 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 16:21:56.762 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 16:21:56.762 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 16:21:56.763 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 16:21:56.763 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 16:21:56.764 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 16:21:56.764 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 16:21:56.764 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 16:21:56.765 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 16:21:56.769 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:57.100 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:57.212 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:57.322 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:57.505 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:57.602 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:57.711 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:57.895 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:58.011 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:58.090 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:58.207 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:58.289 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:58.353 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:58.491 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:58.571 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 16:21:58.632 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 16:21:58.636 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=16.0, path=[系统配置, 检查固件1/2/3, 检查固件1, /, /, /], type=text, rangeHigh=0.0, rangeLow=0.0, selectValue=/, result=null, remark=Excel数据有问题，此行存在16列, registerType=4, register=10050, registerLength=7, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 16:22:37.256 [main] LoggerLoad - =================文本设置项的测试方法,准备执行======================
+[INFO ] 2023-12-11 16:22:38.346 [main] LoggerLoad - 实际设置项文本内容：SK000.00-0000x
+[INFO ] 2023-12-11 16:22:38.348 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 检查固件1/2/3, 检查固件1, /, /, /]
+[DEBUG] 2023-12-11 16:22:38.705 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 16:22:40.785 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 16:22:53.212 [main] LoggerLoad - 读取寄存器的结果str: 10050--21323
+[INFO ] 2023-12-11 16:22:53.288 [main] LoggerLoad - 读取寄存器的结果str: 10051--12336
+[INFO ] 2023-12-11 16:22:53.364 [main] LoggerLoad - 读取寄存器的结果str: 10052--12334
+[INFO ] 2023-12-11 16:22:53.436 [main] LoggerLoad - 读取寄存器的结果str: 10053--12336
+[INFO ] 2023-12-11 16:22:53.508 [main] LoggerLoad - 读取寄存器的结果str: 10054--11568
+[INFO ] 2023-12-11 16:22:53.572 [main] LoggerLoad - 读取寄存器的结果str: 10055--12336
+[INFO ] 2023-12-11 16:22:53.678 [main] LoggerLoad - 读取寄存器的结果str: 10056--12408
+[DEBUG] 2023-12-11 16:22:53.680 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 16:22:53.680 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 16:22:53.680 [main] LoggerLoad - 转换成二进制值为：00110000 00101110  对应的字符为：0 .
+[DEBUG] 2023-12-11 16:22:53.681 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 16:22:53.681 [main] LoggerLoad - 转换成二进制值为：00101101 00110000  对应的字符为：- 0
+[DEBUG] 2023-12-11 16:22:53.681 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 16:22:53.681 [main] LoggerLoad - 转换成二进制值为：00110000 01111000  对应的字符为：0 x
+[INFO ] 2023-12-11 16:22:53.681 [main] LoggerLoad - 实际读取寄存器数值为(转换后)：SK000.00-0000x
+[INFO ] 2023-12-11 16:22:54.499 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 16:22:54.501 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 16:22:54.502 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=17.0, path=[系统配置, 检查固件1/2/3, 检查固件2, /, /, /], type=text, rangeHigh=0.0, rangeLow=0.0, selectValue=/, result=null, remark=Excel数据有问题，此行存在16列, registerType=4, register=10057, registerLength=7, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 16:23:04.799 [main] LoggerLoad - =================文本设置项的测试方法,准备执行======================
+[INFO ] 2023-12-11 16:23:05.857 [main] LoggerLoad - 实际设置项文本内容：SK000.00-00000
+[INFO ] 2023-12-11 16:23:05.857 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 检查固件1/2/3, 检查固件2, /, /, /]
+[DEBUG] 2023-12-11 16:23:06.160 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 16:23:08.855 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 16:23:21.069 [main] LoggerLoad - 读取寄存器的结果str: 10057--21323
+[INFO ] 2023-12-11 16:23:21.135 [main] LoggerLoad - 读取寄存器的结果str: 10058--12336
+[INFO ] 2023-12-11 16:23:21.215 [main] LoggerLoad - 读取寄存器的结果str: 10059--12334
+[INFO ] 2023-12-11 16:23:21.275 [main] LoggerLoad - 读取寄存器的结果str: 10060--12336
+[INFO ] 2023-12-11 16:23:21.334 [main] LoggerLoad - 读取寄存器的结果str: 10061--11568
+[INFO ] 2023-12-11 16:23:21.390 [main] LoggerLoad - 读取寄存器的结果str: 10062--12336
+[INFO ] 2023-12-11 16:23:21.474 [main] LoggerLoad - 读取寄存器的结果str: 10063--12336
+[DEBUG] 2023-12-11 16:23:21.475 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 16:23:21.475 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 16:23:21.475 [main] LoggerLoad - 转换成二进制值为：00110000 00101110  对应的字符为：0 .
+[DEBUG] 2023-12-11 16:23:21.475 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 16:23:21.475 [main] LoggerLoad - 转换成二进制值为：00101101 00110000  对应的字符为：- 0
+[DEBUG] 2023-12-11 16:23:21.475 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 16:23:21.475 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[INFO ] 2023-12-11 16:23:21.475 [main] LoggerLoad - 实际读取寄存器数值为(转换后)：SK000.00-00000
+[INFO ] 2023-12-11 16:23:23.312 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 16:23:23.314 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 16:23:23.316 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=18.0, path=[系统配置, 检查固件1/2/3, 检查固件3, /, /, /], type=text, rangeHigh=0.0, rangeLow=0.0, selectValue=/, result=null, remark=Excel数据有问题，此行存在16列, registerType=4, register=10064, registerLength=7, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 16:23:32.777 [main] LoggerLoad - =================文本设置项的测试方法,准备执行======================
+[INFO ] 2023-12-11 16:23:33.909 [main] LoggerLoad - 实际设置项文本内容：SK131.00-10241
+[INFO ] 2023-12-11 16:23:33.910 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 检查固件1/2/3, 检查固件3, /, /, /]
+[DEBUG] 2023-12-11 16:23:34.201 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 16:23:37.393 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 16:23:49.787 [main] LoggerLoad - 读取寄存器的结果str: 10064--21323
+[INFO ] 2023-12-11 16:23:49.848 [main] LoggerLoad - 读取寄存器的结果str: 10065--12595
+[INFO ] 2023-12-11 16:23:49.912 [main] LoggerLoad - 读取寄存器的结果str: 10066--12590
+[INFO ] 2023-12-11 16:23:49.993 [main] LoggerLoad - 读取寄存器的结果str: 10067--12336
+[INFO ] 2023-12-11 16:23:50.070 [main] LoggerLoad - 读取寄存器的结果str: 10068--11569
+[INFO ] 2023-12-11 16:23:50.129 [main] LoggerLoad - 读取寄存器的结果str: 10069--12338
+[INFO ] 2023-12-11 16:23:50.208 [main] LoggerLoad - 读取寄存器的结果str: 10070--13361
+[DEBUG] 2023-12-11 16:23:50.209 [main] LoggerLoad - 转换成二进制值为：01010011 01001011  对应的字符为：S K
+[DEBUG] 2023-12-11 16:23:50.209 [main] LoggerLoad - 转换成二进制值为：00110001 00110011  对应的字符为：1 3
+[DEBUG] 2023-12-11 16:23:50.209 [main] LoggerLoad - 转换成二进制值为：00110001 00101110  对应的字符为：1 .
+[DEBUG] 2023-12-11 16:23:50.209 [main] LoggerLoad - 转换成二进制值为：00110000 00110000  对应的字符为：0 0
+[DEBUG] 2023-12-11 16:23:50.209 [main] LoggerLoad - 转换成二进制值为：00101101 00110001  对应的字符为：- 1
+[DEBUG] 2023-12-11 16:23:50.209 [main] LoggerLoad - 转换成二进制值为：00110000 00110010  对应的字符为：0 2
+[DEBUG] 2023-12-11 16:23:50.210 [main] LoggerLoad - 转换成二进制值为：00110100 00110001  对应的字符为：4 1
+[INFO ] 2023-12-11 16:23:50.210 [main] LoggerLoad - 实际读取寄存器数值为(转换后)：SK131.00-10241
+[INFO ] 2023-12-11 16:23:51.043 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 16:23:51.044 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 16:23:51.045 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=19.0, path=[系统配置, 电表或CT选择, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue=cWiredCT、METER, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10192, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 16:23:56.095 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 16:23:57.801 [main] LoggerLoad - 点击设置项： 电表或CT选择
+[INFO ] 2023-12-11 16:23:58.804 [main] LoggerLoad - 页面实际选项值[cWiredCT, METER]
+[INFO ] 2023-12-11 16:23:58.804 [main] LoggerLoad - 页面预期选项值[cWiredCT, METER]
+[INFO ] 2023-12-11 16:23:58.805 [main] LoggerLoad - 进入单选项测试逻辑^_^
+[INFO ] 2023-12-11 16:23:59.110 [main] LoggerLoad - 点击选择：cWiredCT
+[INFO ] 2023-12-11 16:24:00.794 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 电表或CT选择, /, /, /, /]
+[DEBUG] 2023-12-11 16:24:01.061 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 16:24:13.609 [main] LoggerLoad - 读取寄存器的结果str: 10192--0
+[DEBUG] 2023-12-11 16:24:22.165 [main] LoggerLoad - 点击设置项： 电表或CT选择
+[INFO ] 2023-12-11 16:24:23.078 [main] LoggerLoad - 点击选择：METER
+[INFO ] 2023-12-11 16:24:23.914 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 电表或CT选择, /, /, /, /]
+[DEBUG] 2023-12-11 16:24:25.068 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:13:30.221 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 17:13:42.898 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:28.470 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 17:14:28.471 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 17:14:28.474 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 17:14:28.474 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 17:14:28.475 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 17:14:28.475 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:14:28.475 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:14:28.476 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:14:28.476 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:14:28.476 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 17:14:28.477 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:14:28.477 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 17:14:28.480 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 17:14:28.480 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:14:28.481 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 17:14:28.481 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 17:14:28.482 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 17:14:28.482 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 17:14:28.482 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 17:14:28.483 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 17:14:28.483 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 17:14:28.483 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 17:14:28.483 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 17:14:28.484 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 17:14:28.484 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 17:14:28.484 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 17:14:28.492 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:28.992 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:29.158 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:29.305 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:29.470 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:29.576 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:29.679 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:29.930 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:30.228 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:30.333 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:30.430 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:30.569 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:30.714 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:30.791 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:30.903 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:30.994 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:31.076 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:31.219 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:14:31.304 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:14:31.306 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=19.0, path=[系统配置, 电表或CT选择, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={cWiredCT:0, METER:2}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10192, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 17:14:37.889 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 17:14:39.542 [main] LoggerLoad - 点击设置项： 电表或CT选择
+[INFO ] 2023-12-11 17:14:41.343 [main] LoggerLoad - 预期页面选项值：[METER, cWiredCT]
+[INFO ] 2023-12-11 17:14:41.344 [main] LoggerLoad - 实际页面选项值：[cWiredCT, METER]
+[INFO ] 2023-12-11 17:14:42.716 [main] LoggerLoad - 进入到返回操作[系统配置, 电表或CT选择, /, /, /, /]
+[DEBUG] 2023-12-11 17:14:43.492 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:14:43.534 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 17:14:43.535 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:14:43.536 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=20.0, path=[系统配置, 电网类型设置, 电网模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue=Genneral standard、NRS097, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10101, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 17:14:53.311 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 17:14:54.084 [main] LoggerLoad - 点击设置项： 电网模式
+[INFO ] 2023-12-11 17:18:20.312 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 17:18:36.473 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:19:18.464 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 17:19:18.465 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 17:19:18.469 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 17:19:18.469 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 17:19:18.470 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 17:19:18.470 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:19:18.470 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:19:18.470 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:19:18.471 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:19:18.471 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 17:19:18.471 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:19:18.471 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 17:19:18.472 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 17:19:18.472 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:19:18.472 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 17:19:18.472 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 17:19:18.473 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 17:19:18.473 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 17:19:18.473 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 17:19:18.474 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 17:19:18.474 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 17:19:18.474 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 17:19:18.474 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 17:19:18.474 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 17:19:18.475 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 17:19:18.475 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 17:19:18.479 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:19:18.538 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+java.io.FileNotFoundException: C:\Users\grt-linweijia\Desktop\Auto_SPH10000TL-HU - 副本.xlsx (另一个程序正在使用此文件，进程无法访问。)
+[INFO ] 2023-12-11 17:19:19.679 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 17:19:31.157 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:19:31.158 [main] LoggerLoad - 失败重新连接driver...success
+[DEBUG] 2023-12-11 17:20:10.801 [main] LoggerLoad - 失败重新连接设备...success
+[DEBUG] 2023-12-11 17:20:10.894 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 17:20:10.895 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 17:20:10.897 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 17:20:10.897 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 17:20:10.897 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 17:20:10.898 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:20:10.898 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:20:10.898 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:20:10.898 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:20:10.899 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 17:20:10.899 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:20:10.900 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 17:20:10.900 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 17:20:10.900 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:20:10.901 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 17:20:10.901 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 17:20:10.904 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 17:20:10.910 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 17:20:10.915 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 17:20:10.917 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 17:20:10.918 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 17:20:10.918 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 17:20:10.918 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 17:20:10.919 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 17:20:10.921 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 17:20:10.925 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 17:20:10.928 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:11.349 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:11.452 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:11.556 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:11.688 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:11.801 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:11.880 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:11.957 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:12.100 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:12.245 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:12.320 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:12.394 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:12.469 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:12.572 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:12.646 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:12.715 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:12.803 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:12.892 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:12.961 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:20:12.963 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=19.0, path=[系统配置, 电表或CT选择, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={cWiredCT:0, METER:2}, result=null, remark=Excel数据有问题，此行存在16列, registerType=3, register=10192, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 17:20:30.871 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 17:20:32.081 [main] LoggerLoad - 点击设置项： 电表或CT选择
+[INFO ] 2023-12-11 17:20:33.227 [main] LoggerLoad - 预期页面选项值：[METER, cWiredCT]
+[INFO ] 2023-12-11 17:20:33.227 [main] LoggerLoad - 实际页面选项值：[cWiredCT, METER]
+[INFO ] 2023-12-11 17:20:34.434 [main] LoggerLoad - 进入到返回操作[系统配置, 电表或CT选择, /, /, /, /]
+[DEBUG] 2023-12-11 17:20:36.827 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:20:36.869 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 17:20:36.870 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:20:36.871 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=20.0, path=[系统配置, 电网类型设置, 电网模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue=Genneral standard、NRS097, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10101, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 17:20:46.202 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 17:20:46.856 [main] LoggerLoad - 点击设置项： 电网模式
+[INFO ] 2023-12-11 17:20:47.851 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+com.alibaba.fastjson.JSONException: syntax error, expect [, actual error, pos 0, fieldName null
+[INFO ] 2023-12-11 17:20:48.761 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 17:20:58.776 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:20:58.776 [main] LoggerLoad - 失败重新连接driver...success
+[INFO ] 2023-12-11 17:25:46.991 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 17:25:59.562 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:40.579 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 17:26:40.581 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 17:26:40.595 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 17:26:40.597 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 17:26:40.597 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 17:26:40.597 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:26:40.600 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:26:40.600 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:26:40.601 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:26:40.601 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 17:26:40.602 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:26:40.603 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 17:26:40.603 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 17:26:40.604 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:26:40.604 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 17:26:40.604 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 17:26:40.604 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 17:26:40.605 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 17:26:40.605 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 17:26:40.605 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 17:26:40.611 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 17:26:40.612 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 17:26:40.612 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 17:26:40.613 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 17:26:40.613 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 17:26:40.613 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 17:26:40.617 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:41.007 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:41.211 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:41.406 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:41.519 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:41.856 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:42.332 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:42.681 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:42.889 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:43.194 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:43.397 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:43.449 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:43.558 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:43.742 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:43.862 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:44.278 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:44.511 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:44.732 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:26:44.851 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:26:44.851 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=19.0, path=[系统配置, 电表或CT选择, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={cWiredCT:0, METER:2}, result=null, remark=Excel数据有问题，此行存在16列, registerType=3, register=10192, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 17:28:12.038 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 17:28:13.331 [main] LoggerLoad - 点击设置项： 电表或CT选择
+[INFO ] 2023-12-11 17:28:14.591 [main] LoggerLoad - 预期页面选项值：[cWiredCT, METER]
+[INFO ] 2023-12-11 17:28:14.591 [main] LoggerLoad - 实际页面选项值：[cWiredCT, METER]
+[INFO ] 2023-12-11 17:28:14.595 [main] LoggerLoad - 进入单选项测试逻辑^_^
+[INFO ] 2023-12-11 17:28:15.577 [main] LoggerLoad - 点击选择：cWiredCT
+[INFO ] 2023-12-11 17:28:16.901 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 电表或CT选择, /, /, /, /]
+[DEBUG] 2023-12-11 17:28:17.152 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:28:27.891 [main] LoggerLoad - 读取寄存器的结果str: 10192--0
+[DEBUG] 2023-12-11 17:28:36.731 [main] LoggerLoad - 点击设置项： 电表或CT选择
+[INFO ] 2023-12-11 17:28:37.631 [main] LoggerLoad - 点击选择：METER
+[INFO ] 2023-12-11 17:28:39.438 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[系统配置, 电表或CT选择, /, /, /, /]
+[DEBUG] 2023-12-11 17:28:39.738 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:28:50.831 [main] LoggerLoad - 读取寄存器的结果str: 10192--2
+[DEBUG] 2023-12-11 17:28:59.613 [main] LoggerLoad - 点击设置项： 电表或CT选择
+[INFO ] 2023-12-11 17:29:01.474 [main] LoggerLoad - 进入到返回操作[系统配置, 电表或CT选择, /, /, /, /]
+[DEBUG] 2023-12-11 17:29:02.911 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:29:02.954 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 17:29:02.956 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:29:02.957 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=20.0, path=[系统配置, 电网类型设置, 电网模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue=Genneral standard、NRS097, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10101, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 17:29:10.911 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 17:29:12.884 [main] LoggerLoad - 点击设置项： 电网模式
+[INFO ] 2023-12-11 17:29:13.312 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+com.alibaba.fastjson.JSONException: syntax error, expect [, actual error, pos 0, fieldName null
+[INFO ] 2023-12-11 17:29:14.379 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 17:29:24.693 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:29:24.694 [main] LoggerLoad - 失败重新连接driver...success
+[INFO ] 2023-12-11 17:41:15.632 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 17:41:28.029 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:42:06.081 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:43:20.087 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 17:43:33.259 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:44:16.137 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 17:44:16.138 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 17:44:16.140 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 17:44:16.141 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 17:44:16.141 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 17:44:16.142 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:44:16.142 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:44:16.143 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:44:16.143 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:44:16.143 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 17:44:16.144 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:44:16.144 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 17:44:16.144 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 17:44:16.145 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:44:16.145 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 17:44:16.145 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 17:44:16.146 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 17:44:16.146 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 17:44:16.146 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 17:44:16.147 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 17:44:16.147 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 17:44:16.147 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 17:44:16.149 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 17:44:16.149 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 17:44:16.149 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 17:44:16.150 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 17:44:16.153 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:44:16.451 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:44:16.452 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=2.0, path=[快速设置, 语言, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={意大利:0,  英语:1,  德语:2, 西班牙语:3, 法语:4, 汉语:5, 波兰语:6}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=15, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 17:44:21.736 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 17:44:23.145 [main] LoggerLoad - 点击设置项： 语言
+[DEBUG] 2023-12-11 17:44:25.082 [main] LoggerLoad - 预期选项map：{意大利=0, 英语=1, 德语=2, 西班牙语=3, 法语=4, 汉语=5, 波兰语=6}
+[INFO ] 2023-12-11 17:44:25.082 [main] LoggerLoad - 预期页面选项值：[意大利, 英语, 德语, 西班牙语, 法语, 汉语, 波兰语]
+[INFO ] 2023-12-11 17:44:25.082 [main] LoggerLoad - 实际页面选项值：[意大利, 英语, 德语, 西班牙语, 法语, 汉语, 波兰语]
+[INFO ] 2023-12-11 17:44:25.083 [main] LoggerLoad - 预期选项值ok，进入单选项对比测试逻辑^_^
+[INFO ] 2023-12-11 17:44:25.543 [main] LoggerLoad - 点击选择：意大利
+[INFO ] 2023-12-11 17:44:27.248 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:44:27.587 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:44:39.129 [main] LoggerLoad - 读取寄存器的结果str: 15--0
+[DEBUG] 2023-12-11 17:44:47.402 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:44:48.417 [main] LoggerLoad - 点击选择：英语
+[INFO ] 2023-12-11 17:44:49.868 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:44:50.183 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:45:00.613 [main] LoggerLoad - 读取寄存器的结果str: 15--1
+[DEBUG] 2023-12-11 17:45:08.270 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:45:09.283 [main] LoggerLoad - 点击选择：德语
+[INFO ] 2023-12-11 17:45:11.059 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:45:11.371 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:45:23.760 [main] LoggerLoad - 读取寄存器的结果str: 15--2
+[DEBUG] 2023-12-11 17:45:31.555 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:45:32.521 [main] LoggerLoad - 点击选择：西班牙语
+[INFO ] 2023-12-11 17:45:33.845 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:45:34.127 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:45:45.972 [main] LoggerLoad - 读取寄存器的结果str: 15--3
+[DEBUG] 2023-12-11 17:45:52.839 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:45:53.813 [main] LoggerLoad - 点击选择：法语
+[INFO ] 2023-12-11 17:45:55.263 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:45:55.526 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:46:07.333 [main] LoggerLoad - 读取寄存器的结果str: 15--4
+[DEBUG] 2023-12-11 17:46:15.396 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:46:16.411 [main] LoggerLoad - 点击选择：汉语
+[INFO ] 2023-12-11 17:46:17.713 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:46:17.980 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:46:30.044 [main] LoggerLoad - 读取寄存器的结果str: 15--5
+[DEBUG] 2023-12-11 17:46:36.467 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:46:37.391 [main] LoggerLoad - 点击选择：波兰语
+[INFO ] 2023-12-11 17:46:38.758 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:46:39.543 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:46:50.185 [main] LoggerLoad - 读取寄存器的结果str: 15--6
+[DEBUG] 2023-12-11 17:46:56.517 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:46:57.832 [main] LoggerLoad - 进入到返回操作[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:46:59.203 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:46:59.310 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 17:46:59.311 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:46:59.399 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:46:59.490 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:46:59.492 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=5.0, path=[系统配置, 系统工作模式, 系统工作模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={并网模式:1, 自发自用模式:2,  Zero Export Limit:3}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10036, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 17:47:36.290 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 17:47:37.253 [main] LoggerLoad - 点击设置项： 系统工作模式
+[INFO ] 2023-12-11 17:48:12.674 [main] LoggerLoad - Test method singleConfigCaseTest failed with exception: expect ':' at 16, actual E
+[INFO ] 2023-12-11 17:48:12.675 [main] LoggerLoad - 成功捕捉到一个异常！！截个图.
+[INFO ] 2023-12-11 17:48:13.323 [main] LoggerLoad - 准备断开蓝牙重新连接！！
+[INFO ] 2023-12-11 17:48:13.323 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+com.alibaba.fastjson.JSONException: expect ':' at 16, actual E
+[INFO ] 2023-12-11 17:48:14.483 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 17:48:24.477 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:48:24.478 [main] LoggerLoad - 失败重新连接driver...success
+[DEBUG] 2023-12-11 17:49:03.382 [main] LoggerLoad - 失败重新连接设备...success
+[DEBUG] 2023-12-11 17:49:03.796 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 17:49:03.800 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 17:49:03.807 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 17:49:03.811 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 17:49:03.812 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 17:49:03.812 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:49:03.813 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:49:03.814 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:49:03.814 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:49:03.814 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 17:49:03.814 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:49:03.815 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 17:49:03.815 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 17:49:03.815 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:49:03.816 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 17:49:03.816 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 17:49:03.816 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 17:49:03.816 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 17:49:03.816 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 17:49:03.817 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 17:49:03.817 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 17:49:03.817 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 17:49:03.817 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 17:49:03.818 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 17:49:03.818 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 17:49:03.818 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 17:49:03.819 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:49:03.821 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=5.0, path=[系统配置, 系统工作模式, 系统工作模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={并网模式:1, 自发自用模式:2,  Zero Export Limit:3}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10036, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 17:49:42.244 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 17:49:43.153 [main] LoggerLoad - 点击设置项： 系统工作模式
+[INFO ] 2023-12-11 17:49:46.637 [main] LoggerLoad - Test method singleConfigCaseTest failed with exception: expect ':' at 16, actual E
+[INFO ] 2023-12-11 17:49:46.638 [main] LoggerLoad - 成功捕捉到一个异常！！截个图.
+[INFO ] 2023-12-11 17:49:47.382 [main] LoggerLoad - 准备断开蓝牙重新连接！！
+[DEBUG] 2023-12-11 17:49:47.396 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:49:47.479 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:49:47.544 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:49:47.700 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:49:47.783 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:49:47.842 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:49:47.911 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:49:47.959 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:49:48.026 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:49:48.075 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:49:48.134 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:49:48.200 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:49:48.247 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:49:48.405 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:49:48.406 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=19.0, path=[系统配置, 电表或CT选择, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={cWiredCT:0, METER:2}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10192, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 17:52:27.374 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 17:52:39.748 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:53:21.514 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 17:53:21.514 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 17:53:21.518 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 17:53:21.518 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 17:53:21.519 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 17:53:21.519 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:53:21.519 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:53:21.520 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:53:21.520 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:53:21.520 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 17:53:21.521 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:53:21.521 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 17:53:21.522 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 17:53:21.522 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:53:21.522 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 17:53:21.523 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 17:53:21.524 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 17:53:21.524 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 17:53:21.524 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 17:53:21.525 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 17:53:21.525 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 17:53:21.525 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 17:53:21.525 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 17:53:21.526 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 17:53:21.528 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 17:53:21.528 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 17:53:21.533 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:53:21.763 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:53:21.763 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=2.0, path=[快速设置, 语言, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={意大利:0,  英语:1,  德语:2, 西班牙语:3, 法语:4, 汉语:5, 波兰语:6}, result=null, remark=Excel数据有问题，此行存在16列, registerType=3, register=15, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 17:53:43.606 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 17:53:45.045 [main] LoggerLoad - 点击设置项： 语言
+[DEBUG] 2023-12-11 17:53:46.693 [main] LoggerLoad - 预期选项map：{意大利=0, 英语=1, 德语=2, 西班牙语=3, 法语=4, 汉语=5, 波兰语=6}
+[INFO ] 2023-12-11 17:53:46.694 [main] LoggerLoad - 预期页面选项值：[意大利, 英语, 德语, 西班牙语, 法语, 汉语, 波兰语]
+[INFO ] 2023-12-11 17:53:46.694 [main] LoggerLoad - 实际页面选项值：[意大利, 英语, 德语, 西班牙语, 法语, 汉语, 波兰语]
+[INFO ] 2023-12-11 17:53:46.696 [main] LoggerLoad - 预期选项值ok，进入单选项对比测试逻辑^_^
+[INFO ] 2023-12-11 17:53:47.248 [main] LoggerLoad - 点击选择：意大利
+[INFO ] 2023-12-11 17:53:48.104 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:53:49.291 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:54:02.388 [main] LoggerLoad - 读取寄存器的结果str: 15--0
+[DEBUG] 2023-12-11 17:54:10.408 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:54:11.409 [main] LoggerLoad - 点击选择：英语
+[INFO ] 2023-12-11 17:54:13.060 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:54:13.353 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:54:26.357 [main] LoggerLoad - 读取寄存器的结果str: 15--1
+[DEBUG] 2023-12-11 17:54:34.220 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:54:35.219 [main] LoggerLoad - 点击选择：德语
+[INFO ] 2023-12-11 17:54:37.187 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:54:37.627 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:54:49.280 [main] LoggerLoad - 读取寄存器的结果str: 15--2
+[DEBUG] 2023-12-11 17:55:27.037 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:55:28.093 [main] LoggerLoad - 点击选择：西班牙语
+[INFO ] 2023-12-11 17:55:29.550 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:55:29.815 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:55:42.839 [main] LoggerLoad - 读取寄存器的结果str: 15--3
+[DEBUG] 2023-12-11 17:55:50.874 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:55:51.856 [main] LoggerLoad - 点击选择：法语
+[INFO ] 2023-12-11 17:55:52.606 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:55:53.761 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:56:09.501 [main] LoggerLoad - 读取寄存器的结果str: 15--4
+[DEBUG] 2023-12-11 17:56:18.449 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:56:19.435 [main] LoggerLoad - 点击选择：汉语
+[INFO ] 2023-12-11 17:56:20.880 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:56:21.722 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:56:33.988 [main] LoggerLoad - 读取寄存器的结果str: 15--5
+[DEBUG] 2023-12-11 17:56:41.947 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:56:42.973 [main] LoggerLoad - 点击选择：波兰语
+[INFO ] 2023-12-11 17:56:44.395 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:56:44.707 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:56:58.040 [main] LoggerLoad - 读取寄存器的结果str: 15--6
+[DEBUG] 2023-12-11 17:57:06.663 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 17:57:08.661 [main] LoggerLoad - 进入到返回操作[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 17:57:09.447 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 17:57:09.555 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 17:57:09.557 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:57:09.639 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:57:09.743 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:57:09.746 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=5.0, path=[系统配置, 系统工作模式, 系统工作模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={并网模式:1, 自发自用模式:2,  ‘Zero Export Limit’:3}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10036, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 17:57:46.888 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 17:57:47.963 [main] LoggerLoad - 点击设置项： 系统工作模式
+[INFO ] 2023-12-11 17:58:28.492 [main] LoggerLoad - Test method singleConfigCaseTest failed with exception: expect ':' at 16, actual E
+[INFO ] 2023-12-11 17:58:28.493 [main] LoggerLoad - 成功捕捉到一个异常！！截个图.
+[INFO ] 2023-12-11 17:58:29.160 [main] LoggerLoad - 准备断开蓝牙重新连接！！
+[INFO ] 2023-12-11 17:58:29.161 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+com.alibaba.fastjson.JSONException: expect ':' at 16, actual E
+[INFO ] 2023-12-11 17:58:30.561 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 17:58:41.240 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 17:58:41.240 [main] LoggerLoad - 失败重新连接driver...success
+[DEBUG] 2023-12-11 17:59:21.765 [main] LoggerLoad - 失败重新连接设备...success
+[DEBUG] 2023-12-11 17:59:21.809 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 17:59:21.810 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 17:59:21.812 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 17:59:21.813 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 17:59:21.813 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 17:59:21.813 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:59:21.813 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 17:59:21.814 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:59:21.814 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 17:59:21.814 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 17:59:21.815 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:59:21.815 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 17:59:21.815 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 17:59:21.816 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 17:59:21.816 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 17:59:21.816 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 17:59:21.816 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 17:59:21.816 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 17:59:21.817 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 17:59:21.817 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 17:59:21.817 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 17:59:21.817 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 17:59:21.817 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 17:59:21.817 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 17:59:21.817 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 17:59:21.818 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 17:59:21.818 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 17:59:21.819 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=5.0, path=[系统配置, 系统工作模式, 系统工作模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={并网模式:1, 自发自用模式:2,  ‘Zero Export Limit’:3}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10036, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 18:00:15.385 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 18:00:28.793 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 18:01:03.779 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 18:01:16.829 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 18:01:59.374 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 18:01:59.376 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 18:01:59.382 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 18:01:59.382 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 18:01:59.383 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 18:01:59.383 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 18:01:59.383 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 18:01:59.384 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 18:01:59.384 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 18:01:59.384 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 18:01:59.384 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 18:01:59.386 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 18:01:59.386 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 18:01:59.386 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 18:01:59.386 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 18:01:59.387 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 18:01:59.387 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 18:01:59.387 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 18:01:59.387 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 18:01:59.387 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 18:01:59.388 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 18:01:59.388 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 18:01:59.388 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 18:01:59.388 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 18:01:59.389 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 18:01:59.389 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 18:01:59.396 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 18:01:59.736 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 18:01:59.737 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=2.0, path=[快速设置, 语言, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={意大利:0,  英语:1,  德语:2, 西班牙语:3, 法语:4, 汉语:5, 波兰语:6}, result=null, remark=Excel数据有问题，此行存在16列, registerType=3, register=15, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 18:03:07.092 [main] LoggerLoad - Test method singleConfigCaseTest failed with exception: Expected condition failed: waiting for visibility of all elements located by By.id: com.growatt.shinetools:id/tv_name (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VDI-ZNKZ-001', ip: '20.60.5.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, databaseEnabled: false, desired: {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, deviceName: device, noReset: true, platformName: android, platformVersion: 12, sessionOverride: true}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: 21091116C, deviceName: qsuofymjbap7yps8, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: qsuofymjbap7yps8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, sessionOverride: true, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2196, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1ec92c9b-9d0b-47e0-b419-5f3a67a2584d
+[INFO ] 2023-12-11 18:03:07.092 [main] LoggerLoad - 成功捕捉到一个异常！！截个图.
+[INFO ] 2023-12-11 18:03:08.531 [main] LoggerLoad - 准备断开蓝牙重新连接！！
+[INFO ] 2023-12-11 18:03:08.531 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.id: com.growatt.shinetools:id/tv_name (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VDI-ZNKZ-001', ip: '20.60.5.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, databaseEnabled: false, desired: {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, deviceName: device, noReset: true, platformName: android, platformVersion: 12, sessionOverride: true}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: 21091116C, deviceName: qsuofymjbap7yps8, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: qsuofymjbap7yps8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, sessionOverride: true, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2196, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1ec92c9b-9d0b-47e0-b419-5f3a67a2584d
+[INFO ] 2023-12-11 18:03:09.772 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 18:03:21.211 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 18:03:21.211 [main] LoggerLoad - 失败重新连接driver...success
+[DEBUG] 2023-12-11 18:04:01.467 [main] LoggerLoad - 失败重新连接设备...success
+[DEBUG] 2023-12-11 18:04:01.516 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 18:04:01.517 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 18:04:01.519 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 18:04:01.520 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 18:04:01.520 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 18:04:01.520 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 18:04:01.521 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 18:04:01.521 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 18:04:01.521 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 18:04:01.521 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 18:04:01.521 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 18:04:01.522 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 18:04:01.522 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 18:04:01.522 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 18:04:01.523 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 18:04:01.523 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 18:04:01.523 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 18:04:01.523 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 18:04:01.523 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 18:04:01.524 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 18:04:01.524 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 18:04:01.524 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 18:04:01.524 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 18:04:01.524 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 18:04:01.525 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 18:04:01.525 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 18:04:01.526 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 18:04:01.527 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=2.0, path=[快速设置, 语言, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={意大利:0,  英语:1,  德语:2, 西班牙语:3, 法语:4, 汉语:5, 波兰语:6}, result=null, remark=Excel数据有问题，此行存在16列, registerType=3, register=15, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 18:05:06.858 [main] LoggerLoad - Test method singleConfigCaseTest failed with exception: Expected condition failed: waiting for visibility of all elements located by By.id: com.growatt.shinetools:id/tv_name (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VDI-ZNKZ-001', ip: '20.60.5.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, databaseEnabled: false, desired: {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, deviceName: device, noReset: true, platformName: android, platformVersion: 12, sessionOverride: true}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: 21091116C, deviceName: qsuofymjbap7yps8, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: qsuofymjbap7yps8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, sessionOverride: true, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2196, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: dc5ef401-7e2a-415f-9b82-ce4a2dc8f5b6
+[INFO ] 2023-12-11 18:05:06.858 [main] LoggerLoad - 成功捕捉到一个异常！！截个图.
+[INFO ] 2023-12-11 18:05:07.821 [main] LoggerLoad - 准备断开蓝牙重新连接！！
+[DEBUG] 2023-12-11 18:05:07.841 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 18:05:07.972 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 18:05:08.081 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 18:05:08.082 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=5.0, path=[系统配置, 系统工作模式, 系统工作模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={并网模式:1, 自发自用模式:2,  ‘Zero Export Limit’:3}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10036, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 18:05:41.226 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 18:05:42.055 [main] LoggerLoad - 点击设置项： 系统工作模式
+[INFO ] 2023-12-11 18:05:46.314 [main] LoggerLoad - Test method singleConfigCaseTest failed with exception: expect ':' at 16, actual E
+[INFO ] 2023-12-11 18:05:46.314 [main] LoggerLoad - 成功捕捉到一个异常！！截个图.
+[INFO ] 2023-12-11 18:05:46.955 [main] LoggerLoad - 准备断开蓝牙重新连接！！
+[INFO ] 2023-12-11 18:05:46.956 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+com.alibaba.fastjson.JSONException: expect ':' at 16, actual E
+[INFO ] 2023-12-11 18:05:47.995 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 18:05:59.138 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 18:05:59.138 [main] LoggerLoad - 失败重新连接driver...success
+[INFO ] 2023-12-11 18:06:40.969 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 18:06:53.865 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 18:07:02.920 [main] LoggerLoad - Test method connectDeviceTest failed with exception: Cached elements 'By.id: com.growatt.shinetools:id/tv_title' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VDI-ZNKZ-001', ip: '20.60.5.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, databaseEnabled: false, desired: {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, deviceName: device, noReset: true, platformName: android, platformVersion: 12, sessionOverride: true}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: 21091116C, deviceName: qsuofymjbap7yps8, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: qsuofymjbap7yps8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, sessionOverride: true, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2196, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c66ed552-c004-4c0d-b034-2a6c2c2fa3d4
+[INFO ] 2023-12-11 18:07:02.921 [main] LoggerLoad - 成功捕捉到一个异常！！截个图.
+[INFO ] 2023-12-11 18:07:03.958 [main] LoggerLoad - 准备断开蓝牙重新连接！！
+[INFO ] 2023-12-11 18:07:03.974 [main] LoggerLoad - Test method singleConfigCaseTest failed with exception: Method SingleConfigCase.singleConfigCaseTest(bo.ExcelBo)[pri:0, instance:testcase.SingleConfigCase@378542de] depends on not successfully finished methods
+[INFO ] 2023-12-11 18:07:03.974 [main] LoggerLoad - 成功捕捉到一个异常！！截个图.
+[INFO ] 2023-12-11 18:07:05.306 [main] LoggerLoad - 准备断开蓝牙重新连接！！
+[INFO ] 2023-12-11 18:07:05.310 [main] LoggerLoad - action run: @after class, 关闭服务
+[INFO ] 2023-12-11 19:21:50.194 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 19:22:02.909 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:22:50.539 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 19:22:50.541 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 19:22:50.544 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 19:22:50.544 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 19:22:50.545 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 19:22:50.545 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:22:50.546 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:22:50.546 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:22:50.546 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:22:50.547 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 19:22:50.548 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:22:50.548 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 19:22:50.548 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 19:22:50.549 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:22:50.549 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 19:22:50.549 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 19:22:50.550 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 19:22:50.550 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 19:22:50.550 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 19:22:50.550 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 19:22:50.551 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 19:22:50.551 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 19:22:50.551 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 19:22:50.552 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 19:22:50.552 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 19:22:50.552 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 19:22:50.557 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:22:50.883 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:22:50.884 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=2.0, path=[快速设置, 语言, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={意大利:0,  英语:1,  德语:2, 西班牙语:3, 法语:4, 汉语:5, 波兰语:6}, result=null, remark=Excel数据有问题，此行存在16列, registerType=3, register=15, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:22:57.579 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 19:22:58.612 [main] LoggerLoad - 点击设置项： 语言
+[DEBUG] 2023-12-11 19:23:00.785 [main] LoggerLoad - 预期选项map：{意大利=0, 英语=1, 德语=2, 西班牙语=3, 法语=4, 汉语=5, 波兰语=6}
+[INFO ] 2023-12-11 19:23:00.785 [main] LoggerLoad - 预期页面选项值：[意大利, 英语, 德语, 西班牙语, 法语, 汉语, 波兰语]
+[INFO ] 2023-12-11 19:23:00.785 [main] LoggerLoad - 实际页面选项值：[意大利, 英语, 德语, 西班牙语, 法语, 汉语, 波兰语]
+[INFO ] 2023-12-11 19:23:00.788 [main] LoggerLoad - 预期选项值ok，进入单选项对比测试逻辑^_^
+[INFO ] 2023-12-11 19:23:01.691 [main] LoggerLoad - 点击选择：意大利
+[INFO ] 2023-12-11 19:23:03.046 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 19:23:03.434 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 19:23:15.275 [main] LoggerLoad - 读取寄存器的结果str: 15--0
+[DEBUG] 2023-12-11 19:23:22.036 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 19:23:23.056 [main] LoggerLoad - 点击选择：英语
+[INFO ] 2023-12-11 19:23:24.397 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 19:23:24.672 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 19:23:36.116 [main] LoggerLoad - 读取寄存器的结果str: 15--1
+[DEBUG] 2023-12-11 19:23:42.772 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 19:23:43.797 [main] LoggerLoad - 点击选择：德语
+[INFO ] 2023-12-11 19:23:45.572 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 19:23:45.937 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 19:23:57.797 [main] LoggerLoad - 读取寄存器的结果str: 15--2
+[DEBUG] 2023-12-11 19:24:06.791 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 19:24:07.777 [main] LoggerLoad - 点击选择：西班牙语
+[INFO ] 2023-12-11 19:24:09.643 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 19:24:09.900 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 19:24:22.045 [main] LoggerLoad - 读取寄存器的结果str: 15--3
+[DEBUG] 2023-12-11 19:24:30.752 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 19:24:31.217 [main] LoggerLoad - 点击选择：法语
+[INFO ] 2023-12-11 19:24:32.578 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 19:24:32.812 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 19:24:43.464 [main] LoggerLoad - 读取寄存器的结果str: 15--4
+[DEBUG] 2023-12-11 19:24:50.063 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 19:24:51.044 [main] LoggerLoad - 点击选择：汉语
+[INFO ] 2023-12-11 19:24:52.434 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 19:24:52.725 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 19:25:04.636 [main] LoggerLoad - 读取寄存器的结果str: 15--5
+[DEBUG] 2023-12-11 19:25:10.731 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 19:25:11.821 [main] LoggerLoad - 点击选择：波兰语
+[INFO ] 2023-12-11 19:25:12.981 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 19:25:13.883 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 19:25:24.994 [main] LoggerLoad - 读取寄存器的结果str: 15--6
+[DEBUG] 2023-12-11 19:25:30.846 [main] LoggerLoad - 点击设置项： 语言
+[INFO ] 2023-12-11 19:25:31.836 [main] LoggerLoad - 进入到返回操作[快速设置, 语言, /, /, /, /]
+[DEBUG] 2023-12-11 19:25:32.166 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 19:25:32.279 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 19:25:32.281 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:25:32.367 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:25:32.447 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:25:32.448 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=5.0, path=[系统配置, 系统工作模式, 系统工作模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={并网模式:1, 自发自用模式:2,  “Zero Export Limit”:3}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10036, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:25:41.175 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 19:25:42.534 [main] LoggerLoad - 点击设置项： 系统工作模式
+[INFO ] 2023-12-11 19:26:07.030 [main] LoggerLoad - Test method singleConfigCaseTest failed with exception: expect ':' at 16, actual E
+[INFO ] 2023-12-11 19:26:07.031 [main] LoggerLoad - 成功捕捉到一个异常！！截个图.
+[INFO ] 2023-12-11 19:26:07.685 [main] LoggerLoad - 准备断开蓝牙重新连接！！
+[INFO ] 2023-12-11 19:26:07.685 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+com.alibaba.fastjson.JSONException: expect ':' at 16, actual E
+[INFO ] 2023-12-11 19:26:08.472 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 19:26:18.709 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:26:18.710 [main] LoggerLoad - 失败重新连接driver...success
+[INFO ] 2023-12-11 19:34:03.967 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 19:34:17.875 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:34:56.820 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 19:34:56.826 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 19:34:56.829 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 19:34:56.830 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 19:34:56.830 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 19:34:56.831 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:34:56.831 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:34:56.832 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:34:56.832 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:34:56.832 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 19:34:56.835 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:34:56.836 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 19:34:56.836 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 19:34:56.836 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:34:56.843 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 19:34:56.844 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 19:34:56.844 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 19:34:56.844 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 19:34:56.844 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 19:34:56.844 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 19:34:56.845 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 19:34:56.845 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 19:34:56.845 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 19:34:56.846 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 19:34:56.846 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 19:34:56.846 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 19:34:56.857 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:34:57.223 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:34:57.374 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:34:57.484 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:34:57.623 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:34:57.625 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=5.0, path=[系统配置, 系统工作模式, 系统工作模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={并网模式:1, 自发自用模式:2,  'Zero Export Limit':3}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10036, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:35:29.227 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 19:36:02.621 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:36:44.619 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 19:36:44.622 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 19:36:44.633 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 19:36:44.634 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 19:36:44.635 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 19:36:44.635 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:36:44.639 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:36:44.640 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:36:44.640 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:36:44.642 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 19:36:44.643 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:36:44.644 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 19:36:44.645 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 19:36:44.645 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:36:44.645 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 19:36:44.646 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 19:36:44.647 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 19:36:44.647 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 19:36:44.647 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 19:36:44.648 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 19:36:44.652 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 19:36:44.653 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 19:36:44.653 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 19:36:44.653 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 19:36:44.654 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 19:36:44.654 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 19:36:44.664 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:36:45.238 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:36:45.416 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:36:45.608 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:36:45.665 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:36:45.666 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=5.0, path=[系统配置, 系统工作模式, 系统工作模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={并网模式:1, 自发自用模式:2,  'Zero Export Limit':3}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10036, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:37:51.726 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.id: com.growatt.shinetools:id/tv_name (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VDI-ZNKZ-001', ip: '20.60.5.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, databaseEnabled: false, desired: {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, deviceName: device, noReset: true, platformName: android, platformVersion: 12, sessionOverride: true}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: 21091116C, deviceName: qsuofymjbap7yps8, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: qsuofymjbap7yps8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, sessionOverride: true, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2196, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a2765164-6010-46b7-a621-1251385802fd
+[INFO ] 2023-12-11 19:37:52.527 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 19:38:02.694 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:38:02.694 [main] LoggerLoad - 失败重新连接driver...success
+[DEBUG] 2023-12-11 19:38:42.435 [main] LoggerLoad - 失败重新连接设备...success
+[DEBUG] 2023-12-11 19:38:42.468 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 19:38:42.470 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 19:38:42.473 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 19:38:42.474 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 19:38:42.474 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 19:38:42.475 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:38:42.475 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:38:42.475 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:38:42.476 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:38:42.476 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 19:38:42.476 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:38:42.477 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 19:38:42.477 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 19:38:42.477 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:38:42.478 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 19:38:42.478 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 19:38:42.478 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 19:38:42.478 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 19:38:42.478 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 19:38:42.479 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 19:38:42.479 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 19:38:42.479 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 19:38:42.479 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 19:38:42.479 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 19:38:42.480 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 19:38:42.480 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 19:38:42.481 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:38:42.483 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=5.0, path=[系统配置, 系统工作模式, 系统工作模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={并网模式:1, 自发自用模式:2,  'Zero Export Limit':3}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10036, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:38:53.475 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 19:38:54.555 [main] LoggerLoad - 点击设置项： 系统工作模式
+[DEBUG] 2023-12-11 19:38:54.555 [main] LoggerLoad - row.selectValue: {并网模式:1, 自发自用模式:2,  'Zero Export Limit':3}
+[DEBUG] 2023-12-11 19:39:58.803 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:39:58.866 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:39:58.929 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:39:59.011 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:39:59.061 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:39:59.110 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:39:59.160 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:39:59.209 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:39:59.270 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:39:59.351 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:39:59.405 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:39:59.468 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:39:59.516 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:39:59.574 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:39:59.576 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=19.0, path=[系统配置, 电表或CT选择, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={cWiredCT:0, METER:2}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10192, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:41:04.323 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.id: com.growatt.shinetools:id/tv_name (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VDI-ZNKZ-001', ip: '20.60.5.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, databaseEnabled: false, desired: {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, deviceName: device, noReset: true, platformName: android, platformVersion: 12, sessionOverride: true}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: 21091116C, deviceName: qsuofymjbap7yps8, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: qsuofymjbap7yps8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, sessionOverride: true, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2196, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 53f276e1-ab29-4b94-9d51-5128d95f5465
+[INFO ] 2023-12-11 19:41:05.417 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 19:41:16.499 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:41:16.499 [main] LoggerLoad - 失败重新连接driver...success
+[DEBUG] 2023-12-11 19:41:54.923 [main] LoggerLoad - 失败重新连接设备...success
+[DEBUG] 2023-12-11 19:41:54.962 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 19:41:54.963 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 19:41:54.964 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 19:41:54.964 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 19:41:54.964 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 19:41:54.964 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:41:54.964 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:41:54.965 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:41:54.965 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:41:54.965 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 19:41:54.965 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:41:54.965 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 19:41:54.966 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 19:41:54.966 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:41:54.966 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 19:41:54.966 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 19:41:54.966 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 19:41:54.966 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 19:41:54.967 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 19:41:54.967 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 19:41:54.967 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 19:41:54.967 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 19:41:54.967 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 19:41:54.967 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 19:41:54.968 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 19:41:54.968 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 19:41:54.974 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:41:54.976 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=19.0, path=[系统配置, 电表或CT选择, /, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={cWiredCT:0, METER:2}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10192, registerLength=1, accuracy=-1.0, runIgnore=0)
+[DEBUG] 2023-12-11 19:43:01.821 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:43:01.822 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=20.0, path=[系统配置, 电网类型设置, 电网模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={‘Genneral standard’:1, NRS097:7}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10101, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:43:39.431 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 19:43:40.172 [main] LoggerLoad - 点击设置项： 电网模式
+[DEBUG] 2023-12-11 19:43:40.173 [main] LoggerLoad - row.selectValue: {‘Genneral standard’:1, NRS097:7}
+[INFO ] 2023-12-11 19:43:41.850 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+com.alibaba.fastjson.JSONException: expect ':' at 0, actual s
+[INFO ] 2023-12-11 19:43:42.980 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 19:43:53.114 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:43:53.115 [main] LoggerLoad - 失败重新连接driver...success
+[DEBUG] 2023-12-11 19:44:32.016 [main] LoggerLoad - 失败重新连接设备...success
+[DEBUG] 2023-12-11 19:44:32.040 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 19:44:32.041 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 19:44:32.042 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 19:44:32.042 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 19:44:32.042 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 19:44:32.042 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:44:32.042 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:44:32.043 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:44:32.043 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:44:32.043 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 19:44:32.043 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:44:32.044 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 19:44:32.044 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 19:44:32.044 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:44:32.045 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 19:44:32.045 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 19:44:32.045 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 19:44:32.045 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 19:44:32.046 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 19:44:32.047 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 19:44:32.047 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 19:44:32.047 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 19:44:32.047 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 19:44:32.047 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 19:44:32.047 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 19:44:32.047 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 19:44:32.048 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:44:32.049 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=20.0, path=[系统配置, 电网类型设置, 电网模式, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={‘Genneral standard’:1, NRS097:7}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10101, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:44:42.099 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 19:44:42.993 [main] LoggerLoad - 点击设置项： 电网模式
+[DEBUG] 2023-12-11 19:44:42.993 [main] LoggerLoad - row.selectValue: {‘Genneral standard’:1, NRS097:7}
+[DEBUG] 2023-12-11 19:44:44.491 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:44:44.491 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=21.0, path=[系统配置, 电网类型设置, 电网类型, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={‘220V single phase’:0,  ‘230V single phase’:1,  ‘240V single phase’:2}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10102, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:45:49.683 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.id: com.growatt.shinetools:id/tv_name (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VDI-ZNKZ-001', ip: '20.60.5.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, databaseEnabled: false, desired: {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, deviceName: device, noReset: true, platformName: android, platformVersion: 12, sessionOverride: true}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: 21091116C, deviceName: qsuofymjbap7yps8, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: qsuofymjbap7yps8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, sessionOverride: true, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2196, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: b24828b5-5d82-4784-8dbd-bf586be2cf6b
+[INFO ] 2023-12-11 19:45:50.660 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 19:46:01.116 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:46:01.117 [main] LoggerLoad - 失败重新连接driver...success
+[DEBUG] 2023-12-11 19:46:41.634 [main] LoggerLoad - 失败重新连接设备...success
+[DEBUG] 2023-12-11 19:46:41.655 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 19:46:41.656 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 19:46:41.656 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 19:46:41.656 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 19:46:41.656 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 19:46:41.657 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:46:41.657 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:46:41.657 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:46:41.657 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:46:41.657 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 19:46:41.657 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:46:41.657 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 19:46:41.657 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 19:46:41.657 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:46:41.657 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 19:46:41.657 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 19:46:41.658 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 19:46:41.658 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 19:46:41.658 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 19:46:41.658 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 19:46:41.658 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 19:46:41.658 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 19:46:41.658 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 19:46:41.659 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 19:46:41.659 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 19:46:41.659 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 19:46:41.660 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:46:41.662 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=21.0, path=[系统配置, 电网类型设置, 电网类型, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={‘220V single phase’:0,  ‘230V single phase’:1,  ‘240V single phase’:2}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10102, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:46:51.537 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 19:46:52.461 [main] LoggerLoad - 点击设置项： 电网类型
+[DEBUG] 2023-12-11 19:46:52.462 [main] LoggerLoad - row.selectValue: {‘220V single phase’:0,  ‘230V single phase’:1,  ‘240V single phase’:2}
+[DEBUG] 2023-12-11 19:46:53.588 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:46:53.589 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=22.0, path=[系统配置, 电网类型设置, 电网频率, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={50Hz:0,  60Hz:1}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10105, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:47:58.651 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.id: com.growatt.shinetools:id/tv_name (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VDI-ZNKZ-001', ip: '20.60.5.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, databaseEnabled: false, desired: {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, deviceName: device, noReset: true, platformName: android, platformVersion: 12, sessionOverride: true}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: 21091116C, deviceName: qsuofymjbap7yps8, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: qsuofymjbap7yps8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, sessionOverride: true, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2196, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a89b1b09-54f2-44ea-822b-3e7ab0a4939b
+[INFO ] 2023-12-11 19:47:59.616 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 19:48:09.355 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:48:09.356 [main] LoggerLoad - 失败重新连接driver...success
+[DEBUG] 2023-12-11 19:48:53.806 [main] LoggerLoad - 失败重新连接设备...success
+[DEBUG] 2023-12-11 19:48:53.823 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 19:48:53.824 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 19:48:53.826 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 19:48:53.826 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 19:48:53.826 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 19:48:53.826 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:48:53.826 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:48:53.826 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:48:53.826 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:48:53.826 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 19:48:53.826 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 19:48:53.827 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 19:48:53.828 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 19:48:53.828 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:48:53.830 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=22.0, path=[系统配置, 电网类型设置, 电网频率, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={50Hz:0,  60Hz:1}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10105, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:49:03.785 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 19:49:04.613 [main] LoggerLoad - 点击设置项： 电网频率
+[DEBUG] 2023-12-11 19:49:04.613 [main] LoggerLoad - row.selectValue: {50Hz:0,  60Hz:1}
+[DEBUG] 2023-12-11 19:49:05.670 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:05.718 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:05.769 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:05.811 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:05.864 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:05.929 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:05.984 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.031 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.071 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.196 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.237 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.294 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.351 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.396 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.439 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.474 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.511 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.550 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.592 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.631 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.674 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.748 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.832 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.884 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.936 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:49:06.972 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:49:06.974 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=48.0, path=[充放电管理, 电池设置2, 电池激活, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={激活:0,  无激活功能:1}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10004, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:50:13.222 [main] LoggerLoad - 进入失败重试方法，这是第 1 次重试, 捕捉到的异常如下：
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.id: com.growatt.shinetools:id/tv_name (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VDI-ZNKZ-001', ip: '20.60.5.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, databaseEnabled: false, desired: {appActivity: com.growatt.shinetools.modu..., appPackage: com.growatt.shinetools, deviceName: device, noReset: true, platformName: android, platformVersion: 12, sessionOverride: true}, deviceApiLevel: 31, deviceManufacturer: Xiaomi, deviceModel: 21091116C, deviceName: qsuofymjbap7yps8, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: qsuofymjbap7yps8, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, sessionOverride: true, statBarHeight: 80, takesScreenshot: true, viewportRect: {height: 2196, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 256ad953-0a97-4363-80cc-b462873feace
+[INFO ] 2023-12-11 19:50:14.298 [main] LoggerLoad - action run: @BeforeClass 
+[DEBUG] 2023-12-11 19:50:24.695 [main] LoggerLoad - start run in @BeforeMethod.
+[DEBUG] 2023-12-11 19:50:24.696 [main] LoggerLoad - 失败重新连接driver...success
+[DEBUG] 2023-12-11 19:51:10.429 [main] LoggerLoad - 失败重新连接设备...success
+[DEBUG] 2023-12-11 19:51:10.447 [main] LoggerLoad - excel解析顺序：0.0  low:10000.0
+[DEBUG] 2023-12-11 19:51:10.447 [main] LoggerLoad - excel解析顺序：1000.0  low:12000.0
+[DEBUG] 2023-12-11 19:51:10.448 [main] LoggerLoad - excel解析顺序：0.0  low:16000.0
+[DEBUG] 2023-12-11 19:51:10.449 [main] LoggerLoad - excel解析顺序：250.0  low:290.0
+[DEBUG] 2023-12-11 19:51:10.449 [main] LoggerLoad - excel解析顺序：150.0  low:200.0
+[DEBUG] 2023-12-11 19:51:10.449 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:51:10.449 [main] LoggerLoad - excel解析顺序：54.0  low:67.0
+[DEBUG] 2023-12-11 19:51:10.449 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:51:10.449 [main] LoggerLoad - excel解析顺序：300.0  low:600.0
+[DEBUG] 2023-12-11 19:51:10.449 [main] LoggerLoad - excel解析顺序：0.5  low:24.0
+[DEBUG] 2023-12-11 19:51:10.449 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:51:10.449 [main] LoggerLoad - excel解析顺序：46.1  low:56.3
+[DEBUG] 2023-12-11 19:51:10.450 [main] LoggerLoad - excel解析顺序：0.0  low:200.0
+[DEBUG] 2023-12-11 19:51:10.450 [main] LoggerLoad - excel解析顺序：0.0  low:2000.0
+[DEBUG] 2023-12-11 19:51:10.450 [main] LoggerLoad - excel解析顺序：1.0  low:90.0
+[DEBUG] 2023-12-11 19:51:10.450 [main] LoggerLoad - excel解析顺序：0.0  low:24.0
+[DEBUG] 2023-12-11 19:51:10.450 [main] LoggerLoad - excel解析顺序：-20.0  low:0.0
+[DEBUG] 2023-12-11 19:51:10.450 [main] LoggerLoad - excel解析顺序：1.0  low:200.0
+[DEBUG] 2023-12-11 19:51:10.450 [main] LoggerLoad - excel解析顺序：1.0  low:220.0
+[DEBUG] 2023-12-11 19:51:10.451 [main] LoggerLoad - excel解析顺序：0.0  low:30.0
+[DEBUG] 2023-12-11 19:51:10.451 [main] LoggerLoad - excel解析顺序：35.0  low:45.0
+[DEBUG] 2023-12-11 19:51:10.451 [main] LoggerLoad - excel解析顺序：49.0  low:100.0
+[DEBUG] 2023-12-11 19:51:10.451 [main] LoggerLoad - excel解析顺序：38.0  low:43.0
+[DEBUG] 2023-12-11 19:51:10.451 [main] LoggerLoad - excel解析顺序：43.0  low:45.0
+[DEBUG] 2023-12-11 19:51:10.451 [main] LoggerLoad - excel解析顺序：45.0  low:54.9
+[DEBUG] 2023-12-11 19:51:10.451 [main] LoggerLoad - excel解析顺序：0.0  low:14.0
+[DEBUG] 2023-12-11 19:51:10.452 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:51:10.453 [main] LoggerLoad - 当前执行的测试项：ExcelBo(testSN=48.0, path=[充放电管理, 电池设置2, 电池激活, /, /, /], type=choose, rangeHigh=0.0, rangeLow=0.0, selectValue={激活:0,  无激活功能:1}, result=null, remark=Excel数据有问题，此行存在15列, registerType=3, register=10004, registerLength=1, accuracy=-1.0, runIgnore=0)
+[INFO ] 2023-12-11 19:51:19.468 [main] LoggerLoad - ==============这是单选型设置项的测试方法,准备执行==================
+[DEBUG] 2023-12-11 19:51:21.873 [main] LoggerLoad - 点击设置项： 电池激活
+[DEBUG] 2023-12-11 19:51:21.874 [main] LoggerLoad - row.selectValue: {激活:0,  无激活功能:1}
+[DEBUG] 2023-12-11 19:51:23.434 [main] LoggerLoad - 预期选项map：{激活=0, 无激活功能=1}
+[INFO ] 2023-12-11 19:51:23.434 [main] LoggerLoad - 预期页面选项值：[激活, 无激活功能]
+[INFO ] 2023-12-11 19:51:23.434 [main] LoggerLoad - 实际页面选项值：[激活, 无激活功能]
+[INFO ] 2023-12-11 19:51:23.437 [main] LoggerLoad - 预期选项值ok，进入单选项对比测试逻辑^_^
+[INFO ] 2023-12-11 19:51:23.863 [main] LoggerLoad - 点击选择：激活
+[INFO ] 2023-12-11 19:51:25.262 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[充放电管理, 电池设置2, 电池激活, /, /, /]
+[DEBUG] 2023-12-11 19:51:25.599 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 19:51:27.456 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 19:51:39.521 [main] LoggerLoad - 读取寄存器的结果str: 10004--0
+[DEBUG] 2023-12-11 19:51:51.682 [main] LoggerLoad - 点击设置项： 电池激活
+[INFO ] 2023-12-11 19:51:52.097 [main] LoggerLoad - 点击选择：无激活功能
+[INFO ] 2023-12-11 19:51:53.520 [main] LoggerLoad - 进入到返回操作(使用左上角页面返回按钮)[充放电管理, 电池设置2, 电池激活, /, /, /]
+[DEBUG] 2023-12-11 19:51:53.834 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 19:51:55.684 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 19:52:08.096 [main] LoggerLoad - 读取寄存器的结果str: 10004--1
+[DEBUG] 2023-12-11 19:52:18.729 [main] LoggerLoad - 点击设置项： 电池激活
+[INFO ] 2023-12-11 19:52:20.776 [main] LoggerLoad - 进入到返回操作[充放电管理, 电池设置2, 电池激活, /, /, /]
+[DEBUG] 2023-12-11 19:52:21.532 [main] LoggerLoad - 返回操作+1
+[DEBUG] 2023-12-11 19:52:22.821 [main] LoggerLoad - 返回操作+1
+[INFO ] 2023-12-11 19:52:22.858 [main] LoggerLoad - ========================设置项结束分割线===============================
+[DEBUG] 2023-12-11 19:52:22.860 [main] LoggerLoad - start run in @BeforeMethod.
+[INFO ] 2023-12-11 19:52:22.895 [main] LoggerLoad - action run: @after class, 关闭服务
